@@ -1,0 +1,75 @@
+d3_citadel_05_b
+{
+	entity
+	{
+		delete { classname "info_player_start" origin "13464 -9720 10256" }
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"13464 -9736 10264"
+			values
+			{
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"13480 -9752 10256"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"13480 -9736 10256"
+			values
+			{
+				targetname			"coop_player_equip"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_physcannon	"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"13480 -9720 10256"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_once"
+			origin			"-224 148 -2944"
+			values
+			{
+				spawnflags			"1"
+				targetname			"coop_tigger_checkpoint_01"
+				OnStartTouch		"coop_spawn_manager,SetCheckPoint,coop_spawn_02,0,-1"
+				edt_mins			"-16.000000 -84.000000 -64.000000"
+				edt_maxs			"16.000000 84.000000 64.000000"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-224 8 -2992"
+			values
+			{
+				angles				"0 180 0"
+				targetname			"coop_spawn_02"
+			}
+		}
+	}
+}

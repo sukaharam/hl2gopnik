@@ -1,0 +1,97 @@
+d3_citadel_01_b
+{
+	entity
+	{
+		delete { classname "logic_auto" origin "11904 5920 -1760" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"11888 5920 -1760"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"6"
+				ammo_AR2			"30"
+				ammo_Buckshot		"22"
+				ammo_Grenade		"2"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"1"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"11888 5936 -1760"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"11872 5920 -1752"
+			values
+			{
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_once"
+			origin			"10232 4304 -1736"
+			values
+			{
+				targetname			"coop_checkpoint_trigger_01"
+				spawnflags			"1"
+				OnStartTouch		"coop_spawn_manager,SetCheckPoint,coop_spawn_02,1,-1"
+				OnStartTouch		"coop_spawn_02,Enable,,0,-1"
+				edt_mins			"-72.000000 -32.000000 -56.000000"
+				edt_maxs			"72.000000 32.000000 56.000000"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"10336 4320 -1776"
+			values
+			{
+				targetname			"coop_spawn_02"
+				angles				"0 315 0"
+				StartDisabled		"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"11888 5904 -1760"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+	}
+}

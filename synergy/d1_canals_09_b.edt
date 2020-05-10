@@ -1,0 +1,104 @@
+d1_canals_09_b
+{
+	entity
+	{
+		// (new 09-10 trans) 
+		create
+		{
+			classname		"trigger_push"
+			origin			"-1600 -7360 -320"
+			values
+			{
+				pushdir					"0 270 0"
+				spawnflags				"1"
+				speed					"700"
+				edt_mins				"-192.000000 -32.000000 -192.000000"
+				edt_maxs				"192.000000 32.000000 192.000000"
+			}
+		}
+		delete { classname "logic_auto" origin "-1472 -7984 -368" }
+		delete { classname "logic_auto" origin "-1536 -7856 -400" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-1496 -7952 -384"
+			values
+			{
+				ammo_357				"90"
+				ammo_AR2				"90"
+				ammo_Buckshot			"40"
+				ammo_Grenade			"5"
+				ammo_Pistol				"90"
+				ammo_slam				"1"
+				ammo_SMG1				"90"
+				ammo_SMG1_Grenade		"2"
+				ammo_XBowBolt			"3"
+				item_Armor				"100"
+				item_Suit				"1"
+				targetname				"coop_player_equip"
+				weapon_357				"1"
+				weapon_ar2				"1"
+				weapon_crossbow			"1"
+				weapon_crowbar			"1"
+				weapon_deagle			"1"
+				weapon_frag				"1"
+				weapon_physcannon		"1"
+				weapon_pistol			"1"
+				weapon_rpg				"1"
+				weapon_shotgun			"1"
+				weapon_slam				"1"
+				weapon_smg1				"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-1496 -7936 -384"
+			values
+			{
+				IsVehicleMap		"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_vehicle_spawn"
+			origin			"-1600 -8013.11 -352"
+			values
+			{
+				angles					"0 180 0"
+				model					"models/airboat.mdl"
+				RespawnVehicle			"1"
+				StartEnabled			"1"
+				StartGunEnabled			"1"
+				targetname				"coop_vehicle_spawn_01"
+				vehiclescript			"scripts/vehicles/airboat.txt"
+				VehicleSize				"170"
+				VehicleType				"2"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-1496 -7968 -384"
+			values
+			{
+				targetname				"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-1472 -7952 -384"
+			values
+			{
+				angles					"0 270 0"
+				targetname				"coop_spawn_01"
+			}
+		}
+	}
+}

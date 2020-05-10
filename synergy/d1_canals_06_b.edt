@@ -1,0 +1,117 @@
+d1_canals_06_b
+{
+	entity
+	{
+		// (05a river) 
+		create
+		{
+			classname		"trigger_push"
+			origin			"-1520 -3072 -192"
+			values
+			{
+				spawnflags			"1"
+				speed				"800"
+				edt_mins			"-48.000000 -512.000000 -384.000000"
+				edt_maxs			"48.000000 512.000000 384.000000"
+			}
+		}
+		// (05a river) 
+		create
+		{
+			classname		"trigger_push"
+			origin			"-1616 -3072 -192"
+			values
+			{
+				pushdir				"0 180 0"
+				spawnflags			"1"
+				speed				"800"
+				edt_mins			"-48.000000 -512.000000 -384.000000"
+				edt_maxs			"48.000000 512.000000 384.000000"
+			}
+		}
+		delete { classname "logic_auto" origin "-3072 -3416 -440" }
+		delete { classname "logic_auto" origin "-3208 -3432 -472" }
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-3108 -3433.12 -464"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-3084 -3417.12 -464"
+			values
+			{
+				angles				"0 180 0"
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_vehicle_spawn"
+			origin			"-3126.8 -3300.73 -432"
+			values
+			{
+				angles				"0 90 0"
+				model				"models/airboat.mdl"
+				RespawnVehicle		"1"
+				StartEnabled		"1"
+				StartGunEnabled		"1"
+				targetname			"coop_vehicle_spawn_01"
+				vehiclescript		"scripts/vehicles/airboat.txt"
+				VehicleSize			"170"
+				VehicleType			"2"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-3108 -3417.12 -464"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"6"
+				ammo_AR2			"30"
+				ammo_Buckshot		"22"
+				ammo_Grenade		"2"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"1"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-3108 -3401.12 -464"
+			values
+			{
+				IsVehicleMap		"1"
+			}
+		}
+	}
+}

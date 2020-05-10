@@ -1,0 +1,104 @@
+
+d2_coast_09_b
+{
+	entity
+	{
+		// (1865 objects) 
+		create
+		{
+			classname		"trigger_push"
+			origin			"11388 -1924 -96"
+			values
+			{
+				pushdir			"0 135 0"
+				spawnflags		"1"
+				Speed			"700"
+				edt_mins		"-212.003906 -244.003906 -96.000000"
+				edt_maxs		"212.001953 244.000000 96.000000"
+			}
+		}
+		delete { classname "logic_auto" origin "10080 2864 -168" }
+		delete { classname "logic_auto" origin "10080 2880 -168" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"9960 744 -184"
+			values
+			{
+				ammo_357				"90"
+				ammo_AR2				"90"
+				ammo_Buckshot			"40"
+				ammo_Grenade			"5"
+				ammo_Pistol				"90"
+				ammo_slam				"1"
+				ammo_SMG1				"90"
+				ammo_SMG1_Grenade		"2"
+				ammo_XBowBolt			"3"
+				item_Armor				"100"
+				item_Suit				"1"
+				targetname				"coop_player_equip"
+				weapon_357				"1"
+				weapon_ar2				"1"
+				weapon_crossbow			"1"
+				weapon_crowbar			"1"
+				weapon_deagle			"1"
+				weapon_frag				"1"
+				weapon_physcannon		"1"
+				weapon_pistol			"1"
+				weapon_rpg				"1"
+				weapon_shotgun			"1"
+				weapon_slam				"1"
+				weapon_smg1				"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"9944 744 -184"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"9960 720 -184"
+			values
+			{
+				angles				"0 90 0"
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"9976 744 -184"
+			values
+			{
+				IsVehicleMap		"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_vehicle_spawn"
+			origin			"10008 912 -176"
+			values
+			{
+				model				"models/vehicles/buggy_p2.mdl"
+				RespawnVehicle		"1"
+				StartEnabled		"1"
+				StartGunEnabled		"1"
+				targetname			"coop_vehicle_spawn"
+				vehiclescript		"scripts/vehicles/jeep_test.txt"
+				VehicleSize			"192"
+				VehicleType			"4"
+			}
+		}
+	}
+}

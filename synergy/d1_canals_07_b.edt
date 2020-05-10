@@ -1,0 +1,104 @@
+d1_canals_07_b
+{
+	entity
+	{
+	 
+		create
+		{
+			classname		"trigger_push"
+			origin			"-7328 -4192 -896"
+			values
+			{
+				pushdir				"0 180 0"
+				spawnflags			"1"
+				speed				"800"
+				edt_mins			"-32.000000 -480.000000 -160.000000"
+				edt_maxs			"32.000000 480.000000 160.000000"
+			}
+		}
+		delete { classname "logic_auto" origin "-8576 -4448 -960" }
+		delete { classname "logic_auto" origin "-8672 -4416 -960" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-8717.2 -4404.39 -960"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"6"
+				ammo_AR2			"30"
+				ammo_Buckshot		"22"
+				ammo_Grenade		"2"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"1"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-8717.2 -4420.39 -960"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-8693.2 -4404.39 -960"
+			values
+			{
+				angles				"0 180 0"
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-8717.2 -4388.39 -960"
+			values
+			{
+				IsVehicleMap		"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_vehicle_spawn"
+			origin			"-8736 -4288 -928"
+			values
+			{
+				angles				"0 90 0"
+				model				"models/airboat.mdl"
+				RespawnVehicle		"1"
+				StartEnabled		"1"
+				StartGunEnabled		"1"
+				targetname			"coop_vehicle_spawn_01"
+				vehiclescript		"scripts/vehicles/airboat.txt"
+				VehicleSize			"170"
+				VehicleType			"2"
+			}
+		}
+	}
+}

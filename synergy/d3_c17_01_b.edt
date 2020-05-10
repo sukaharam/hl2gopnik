@@ -1,0 +1,81 @@
+
+d3_c17_01_b
+{
+	entity
+	{
+		delete { classname "logic_auto" origin "-6832 -672 -48" }
+
+		edit
+		{
+			classname		"trigger_teleport"
+			origin			"-6716 -674 -54"
+			values
+			{
+				StartDisabled		"0" // PREVIOUS: "1"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-6816 -608 -48"
+			values
+			{
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-6840 -592 -56"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-6840 -608 -56"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"90"
+				ammo_AR2			"90"
+				ammo_Buckshot		"40"
+				ammo_Grenade		"5"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"3"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-6840 -624 -56"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+	}
+}

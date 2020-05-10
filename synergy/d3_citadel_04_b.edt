@@ -1,0 +1,122 @@
+d3_citadel_04_b
+{
+	entity
+	{
+		delete { classname "logic_auto" origin "-1232 -8272 6064" }
+		"delete" { "targetname" "trigger_breen_talk" }
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-1232 -8256 6032"
+			values
+			{
+				angles				"0 90 0"
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-1216 -8272 6024"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-1216 -8256 6024"
+			values
+			{
+				targetname				"coop_player_equip"
+				item_Armor				"100"
+				item_Suit				"1"
+				weapon_physcannon		"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-1216 -8240 6024"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_push"
+			origin			"-1216 -8616 6144"
+			values
+			{
+				targetname			"coop_push_trigger"
+				pushdir				"0 90 0"
+				speed				"800"
+				edt_mins			"-64.000000 -24.000000 -128.000000"
+				edt_maxs			"64.000000 24.000000 128.000000"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_once"
+			origin			"256 24 6455.75"
+			values
+			{
+				targetname			"coop_checkpoint_trigger_01"
+				spawnflags			"1"
+				OnStartTouch		"coop_spawn_manager,SetCheckPoint,coop_spawn_02,0.1,-1"
+				OnStartTouch		"coop_spawn_02,Enable,,0,-1"
+				OnStartTouch		"coop_spawn_01,Disable,,0,-1"
+				edt_mins			"-192.000000 -32.000000 -55.750000"
+				edt_maxs			"192.000000 32.000000 55.750000"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"304 -95.096 6415.5"
+			values
+			{
+				targetname			"coop_spawn_02"
+				angles				"0 90 0"
+				StartDisabled		"1"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_once"
+			origin			"256 800 2368"
+			values
+			{
+				targetname			"coop_checkpoint_trigger_02"
+				spawnflags			"1"
+				StartDisabled		"1"
+				OnStartTouch		"coop_spawn_manager,SetCheckPoint,coop_spawn_03,0.1,-1"
+				OnStartTouch		"coop_spawn_03,Enable,,0,-1"
+				edt_mins			"-320.000000 -320.000000 -64.000000"
+				edt_maxs			"320.000000 320.000000 64.000000"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"256 601.604 2320"
+			values
+			{
+				targetname			"coop_spawn_03"
+				angles				"0 270 0"
+				StartDisabled		"1"
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+d1_town_01a_b
+{
+	entity
+	{
+		delete { classname "logic_auto" origin "-976 784 -3248" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-968 696 -3267.93"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"6"
+				ammo_AR2			"30"
+				ammo_Buckshot		"22"
+				ammo_Grenade		"2"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"1"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-968 680 -3267.93"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-992 696 -3267.93"
+			values
+			{
+				targetname			"coop_spawn_01"
+			}
+		}
+
+		create
+		{
+			classname		"trigger_push"
+			origin			"-598 708 -3364"
+			values
+			{
+				spawnflags		"1"
+				speed			"800"
+				edt_mins		"-26.000000 -60.000000 -76.000000"
+				edt_maxs		"26.000000 60.000000 76.000000"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-968 712 -3267.93"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+	}
+}

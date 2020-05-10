@@ -1,0 +1,85 @@
+d2_prison_03_b
+{
+	entity
+	{
+		// (2659 objects) 
+		create
+		{
+			classname		"trigger_push"
+			origin			"-3444 6048 112"
+			values
+			{
+				spawnflags		"1"
+				pushdir			"0 180 0"
+				speed			"800"
+				edt_mins		"-20.000000 -96.000000 -112.000000"
+				edt_maxs		"20.000000 96.000000 112.000000"
+			}
+		}
+		delete { classname "logic_auto" origin "-3568 6048 32" }
+
+		create
+		{
+			classname		"info_player_equip"
+			origin			"-3616 6028 7.99999"
+			values
+			{
+				targetname			"coop_player_equip"
+				ammo_357			"6"
+				ammo_AR2			"30"
+				ammo_Buckshot		"22"
+				ammo_Grenade		"2"
+				ammo_Pistol			"90"
+				ammo_slam			"1"
+				ammo_SMG1			"90"
+				ammo_SMG1_Grenade	"2"
+				ammo_XBowBolt		"1"
+				item_Armor			"100"
+				item_Suit			"1"
+				weapon_357			"1"
+				weapon_ar2			"1"
+				weapon_crossbow		"1"
+				weapon_crowbar		"1"
+				weapon_deagle		"1"
+				weapon_frag			"1"
+				weapon_physcannon	"1"
+				weapon_pistol		"1"
+				weapon_rpg			"1"
+				weapon_shotgun		"1"
+				weapon_slam			"1"
+				weapon_smg1			"1"
+			}
+		}
+
+		create
+		{
+			classname		"info_global_settings"
+			origin			"-3616 6044 7.99999"
+			values
+			{
+				IsVehicleMap		"0"
+			}
+		}
+
+		create
+		{
+			classname		"info_spawn_manager"
+			origin			"-3616 6012 7.99999"
+			values
+			{
+				targetname			"coop_spawn_manager"
+			}
+		}
+
+		create
+		{
+			classname		"info_player_coop"
+			origin			"-3592 6028 16"
+			values
+			{
+				angles			"0 180 0"
+				targetname		"coop_spawn_01"
+			}
+		}
+	}
+}
