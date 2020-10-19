@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2745"
+	"mapversion" "2748"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -122,7 +122,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2745"
+	"mapversion" "2748"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -122247,30 +122247,6 @@ entity
 }
 entity
 {
-	"id" "729793"
-	"classname" "scripted_sequence"
-	"angles" "0 135 0"
-	"m_flRadius" "0"
-	"m_flRepeat" "0"
-	"m_fMoveTo" "0"
-	"m_iszEntity" "door_bracerProp"
-	"m_iszPlay" "doorBracer_Struggle"
-	"m_iszPostIdle" "doorBracer_Closed"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"spawnflags" "452"
-	"targetname" "ss_DoorBracer_Struggle"
-	"origin" "-3039 -3539.2 401"
-	editor
-	{
-		"color" "255 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -6768]"
-	}
-}
-entity
-{
 	"id" "729796"
 	"classname" "light_environment"
 	"_ambient" "190 201 220 100"
@@ -131926,27 +131902,6 @@ entity
 }
 entity
 {
-	"id" "730728"
-	"classname" "logic_choreographed_scene"
-	"busyactor" "1"
-	"SceneFile" "scenes/trainyard/alyx_greet02.vcd"
-	"targetname" "lcs_alyxgreet02"
-	connections
-	{
-		"OnTrigger1" "tracktrain_elevator,StartForward,,1.5,-1"
-		"OnTrigger1" "elevator_link,TurnOff,,1.5,-1"
-	}
-	"origin" "-7480 -3960 456"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 3000]"
-	}
-}
-entity
-{
 	"id" "730730"
 	"classname" "info_node"
 	"angles" "0 0 0"
@@ -135442,66 +135397,6 @@ entity
 }
 entity
 {
-	"id" "731146"
-	"classname" "scripted_sequence"
-	"angles" "0 135 0"
-	"m_flRadius" "0"
-	"m_flRepeat" "0"
-	"m_fMoveTo" "0"
-	"m_iszEntity" "citizen_DoorBracer"
-	"m_iszPlay" "doorBracer_BustThru"
-	"m_iszPostIdle" "cower"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"spawnflags" "72"
-	"targetname" "ss_DoorBracer_BustThru"
-	connections
-	{
-		"OnBeginSequence" "ss_DoorBracer_Struggle,Kill,,0.1,-1"
-		"_OnScriptEvent01" "hurt_Cit_DoorBracer,Hurt,,0,-1"
-		"OnBeginSequence" "door_bracerProp,SetAnimation,doorBracer_BustThru,0,-1"
-		"OnBeginSequence" "ss_DoorBracer_Struggle,CancelSequence,,0,-1"
-	}
-	"origin" "-3035 -3578.2 414"
-	editor
-	{
-		"color" "255 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -11768]"
-	}
-}
-entity
-{
-	"id" "731149"
-	"classname" "scripted_sequence"
-	"angles" "0 135 0"
-	"m_flRadius" "0"
-	"m_flRepeat" "0"
-	"m_fMoveTo" "0"
-	"m_iszEntity" "citizen_DoorBracer"
-	"m_iszPlay" "doorBracer_Struggle"
-	"m_iszPostIdle" "doorBracer_Closed"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"spawnflags" "324"
-	"targetname" "ss_DoorBracer_Struggle"
-	connections
-	{
-		"OnBeginSequence" "ss_DoorBracer_Struggle,BeginSequence,,1.75,-1"
-		"OnBeginSequence" "door_bracerProp,SetAnimation,doorBracer_Struggle,0,-1"
-	}
-	"origin" "-3039 -3578.2 401"
-	editor
-	{
-		"color" "255 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -11268]"
-	}
-}
-entity
-{
 	"id" "731152"
 	"classname" "trigger_once"
 	"origin" "-3464 -3584 624"
@@ -135597,51 +135492,6 @@ entity
 }
 entity
 {
-	"id" "731155"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_look_ele_button2"
-	"origin" "-7680 -4020.09 441"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -10268]"
-	}
-}
-entity
-{
-	"id" "731157"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_walk_to_elevator1"
-	"origin" "-7626 -4005 384"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -9768]"
-	}
-}
-entity
-{
-	"id" "731159"
-	"classname" "info_target"
-	"angles" "0 270 0"
-	"targetname" "mark_look_secret_button"
-	"origin" "-7696 -4112 -208"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -9268]"
-	}
-}
-entity
-{
 	"id" "731161"
 	"classname" "info_target"
 	"angles" "0 254 0"
@@ -135653,112 +135503,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4000 -8768]"
-	}
-}
-entity
-{
-	"id" "731163"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_secret_doorb"
-	"origin" "-7654 -4112 -248"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -8268]"
-	}
-}
-entity
-{
-	"id" "731165"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_knockout_alyxmark2"
-	"origin" "-7559.75 -4037.52 384"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -7768]"
-	}
-}
-entity
-{
-	"id" "731167"
-	"classname" "info_target"
-	"angles" "0 270 0"
-	"targetname" "mark_look_breen_poster"
-	"origin" "-7708 -4144 -159"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -7268]"
-	}
-}
-entity
-{
-	"id" "731169"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_secret_door"
-	"origin" "-7678 -4116 -256"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -6768]"
-	}
-}
-entity
-{
-	"id" "731171"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_walk_to_elevator2"
-	"origin" "-7706 -4013.09 384"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -6268]"
-	}
-}
-entity
-{
-	"id" "731173"
-	"classname" "info_target"
-	"angles" "0 270 0"
-	"spawnflags" "0"
-	"targetname" "mark_look_ele_button"
-	"origin" "-7635 -4028.09 434"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -5768]"
-	}
-}
-entity
-{
-	"id" "731175"
-	"classname" "info_target"
-	"angles" "0 90 0"
-	"targetname" "mark_knockout_alyxmark1"
-	"origin" "-7517.75 -4001.52 393"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -5268]"
 	}
 }
 entity
@@ -136508,50 +136252,6 @@ entity
 }
 entity
 {
-	"id" "731250"
-	"classname" "logic_choreographed_scene"
-	"busyactor" "1"
-	"SceneFile" "scenes/trainyard/alyx_greet00.vcd"
-	"target1" "npc_knockout_cop1"
-	"targetname" "lcs_alyxgreet00"
-	connections
-	{
-		"OnCompletion" "mic_alyx,Disable,,0,-1"
-	}
-	"origin" "-7496 -3960 472"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 8000]"
-	}
-}
-entity
-{
-	"id" "731264"
-	"classname" "scripted_sequence"
-	"angles" "0 39 0"
-	"m_flRadius" "0"
-	"m_flRepeat" "0"
-	"m_fMoveTo" "4"
-	"m_iszEntity" "alyx"
-	"m_iszPlay" "intro_bendover"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"spawnflags" "96"
-	"targetname" "ss_alyx_intro_bendover"
-	"origin" "-7517.75 -4001.52 384"
-	editor
-	{
-		"color" "255 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 11000]"
-	}
-}
-entity
-{
 	"id" "731319"
 	"classname" "logic_relay"
 	"spawnflags" "0"
@@ -136746,21 +136446,6 @@ entity
 }
 entity
 {
-	"id" "731335"
-	"classname" "info_target"
-	"angles" "0 0 0"
-	"targetname" "mark_alyx_breenwall_opp"
-	"origin" "-7590 -4208 -248"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -9768]"
-	}
-}
-entity
-{
 	"id" "731337"
 	"classname" "ai_speechfilter"
 	"IdleModifier" "0"
@@ -136843,57 +136528,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4500 -7768]"
-	}
-}
-entity
-{
-	"id" "731354"
-	"classname" "logic_choreographed_scene"
-	"busyactor" "1"
-	"SceneFile" "scenes/trainyard/alyx_greet01.vcd"
-	"target1" "overwatch"
-	"targetname" "lcs_alyxgreet01"
-	connections
-	{
-		"OnTrigger1" "zoom2,UnZoom,,3,-1"
-		"OnTrigger1" "zoom2,Zoom,,0,-1"
-		"OnTrigger1" "blackout,SetAnimation,exit1,0,-1"
-		"OnTrigger2" "relay_elevator_1,Trigger,,0,-1"
-		"OnTrigger3" "ss_alyx_intro_bendover,BeginSequence,,0,-1"
-		"OnCompletion" "speaker_alyxfollow1,TurnOn,,6,-1"
-		"OnTrigger1" "zoom,UnZoom,,3,-1"
-		"OnStart" "sound_apc_alarm,PlaySound,,8,-1"
-	}
-	"origin" "-7496 -3960 456"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -6768]"
-	}
-}
-entity
-{
-	"id" "731356"
-	"classname" "logic_choreographed_scene"
-	"busyactor" "1"
-	"SceneFile" "scenes/trainyard/alyx_greet03.vcd"
-	"targetname" "lcs_alyxgreet03"
-	connections
-	{
-		"OnTrigger1" "secret_door,StartForward,,0.1,-1"
-		"OnTrigger2" "door_inside_secret,Open,,0,-1"
-		"OnTrigger1" "door_secret_1,EnablePath,,0,-1"
-		"OnCompletion" "speaker_alyxfollow2,TurnOn,,8,-1"
-	}
-	"origin" "-7464 -3960 456"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -6268]"
 	}
 }
 entity
@@ -149869,8 +149503,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-4363.2 -4276.95 682.857]"
-		"look" "[-4317.74 -4087.67 665.38]"
+		"position" "[-7453.49 -4148.77 -188.472]"
+		"look" "[-7553.45 -3982.7 -163.367]"
 	}
 }
 cordon

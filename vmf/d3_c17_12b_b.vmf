@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "1696"
+	"mapversion" "1700"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "587421"
-	"mapversion" "1696"
+	"mapversion" "1700"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -29028,9 +29028,9 @@ world
 		{
 			"id" "62641"
 			"plane" "(-4100 836 204) (-4100 836 96) (-4088 836 96)"
-			"material" "BRICK/BRICKWALL003A"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29039,9 +29039,9 @@ world
 		{
 			"id" "62640"
 			"plane" "(-4088 788 204) (-4088 788 96) (-4100 788 96)"
-			"material" "BRICK/BRICKWALL003A"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29050,9 +29050,9 @@ world
 		{
 			"id" "62639"
 			"plane" "(-4100 788 204) (-4100 836 204) (-4088 836 204)"
-			"material" "BRICK/BRICKWALL003A"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29104,9 +29104,9 @@ world
 		{
 			"id" "62647"
 			"plane" "(-4104 840 208) (-4104 840 96) (-4088 840 96)"
-			"material" "PLASTER/PLASTERWALL021A"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29115,9 +29115,9 @@ world
 		{
 			"id" "62646"
 			"plane" "(-4104 836 208) (-4104 840 208) (-4088 840 208)"
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE025M"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29169,9 +29169,9 @@ world
 		{
 			"id" "62654"
 			"plane" "(-4104 788 208) (-4104 836 208) (-4088 836 208)"
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE025M"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29180,9 +29180,9 @@ world
 		{
 			"id" "62653"
 			"plane" "(-4104 836 208) (-4104 836 204) (-4088 836 204)"
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE025M"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29191,9 +29191,9 @@ world
 		{
 			"id" "62652"
 			"plane" "(-4088 788 208) (-4088 788 204) (-4104 788 204)"
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE025M"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29256,9 +29256,9 @@ world
 		{
 			"id" "62659"
 			"plane" "(-4088 784 208) (-4088 784 96) (-4104 784 96)"
-			"material" "PLASTER/PLASTERWALL021A"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29267,9 +29267,9 @@ world
 		{
 			"id" "62658"
 			"plane" "(-4104 784 208) (-4104 788 208) (-4088 788 208)"
-			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE025M"
-			"uaxis" "[1 0 0 -64] 0.25"
-			"vaxis" "[0 -1 0 64] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -72218,10 +72218,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "-4318.35 589.411 97.2813"
 	editor
 	{
@@ -72244,10 +72240,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "-4319 592 129.281"
 	editor
 	{
@@ -72270,10 +72262,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "-4318 536 97.2813"
 	editor
 	{
@@ -90442,42 +90430,6 @@ entity
 }
 entity
 {
-	"id" "567599"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_ENDOFC1712B"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache_1"
-	"origin" "-4336 579.522 169.616"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "567601"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "relay_achievement_cache_1"
-	connections
-	{
-		"OnTrigger" "achievement_cache_1,FireEvent,,0,-1"
-	}
-	"origin" "-4336 579.522 189.616"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
 	"id" "569576"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -92875,8 +92827,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-5620.75 -508.964 -590.584]"
-		"look" "[-5787.73 -282.936 -293.207]"
+		"position" "[-4013.74 856.756 185.934]"
+		"look" "[-4398.37 894.343 51.5812]"
 	}
 }
 cordon

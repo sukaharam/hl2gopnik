@@ -59,45 +59,15 @@ MAPSCRIPT.ImportantPlayerNPCNames =
 MAPSCRIPT.VehicleGuns = true
 
 function MAPSCRIPT:Init()
+
 end
+
+
+
+
 
 function MAPSCRIPT:PostInit()
 
-
-    if SERVER then
-
-
-        -- In case of map reset.
-        GAMEMODE:SetSpawnPlayerVehicles(true)
-
-        -- This is ugly but it solves a strange issue where the whole script falls apart.
-        local timer1 = ents.Create("logic_timer")
-        timer1:SetKeyValue("RefireTime", "1")
-        timer1:Fire("AddOutput", "OnTimer dropship_container,SetDamageFilter,lambda_null_filter,0,-1")
-        timer1:Spawn()
-
-        local nullFilter = ents.Create("filter_activator_class")
-        nullFilter:SetName("lambda_null_filter")
-        nullFilter:SetKeyValue("filterclass", "null")
-        nullFilter:Spawn()
-
-        end
-		
-		local citizen_greeter
-        ents.WaitForEntityByName("citizen_greeter", function(ent)
-            ent.ImportantNPC = true
-            citizen_greeter = ent
-        end)
-
-        GAMEMODE:WaitForInput("greeter_cover", "MoveToPosition", function(ent)
-            DbgPrint("citizen_greeter no longer important NPC")
-            if IsValid(citizen_greeter) then
-                citizen_greeter.ImportantNPC = false
-            end
-
-        end)
-		
-    end
 
 end
 

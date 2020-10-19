@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2938"
+	"mapversion" "2942"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -110,7 +110,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2938"
+	"mapversion" "2942"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32927,11 +32927,11 @@ world
 		{
 			"id" "57014"
 			"plane" "(1216 -2368 1728) (1216 -2368 1600) (1216 -1792 1600)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CONCRETE/CONCRETEWALL013M"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
 			"rotation" "0"
-			"lightmapscale" "16"
+			"lightmapscale" "32"
 			"smoothing_groups" "0"
 		}
 		side
@@ -76354,6 +76354,7 @@ entity
 	"classname" "point_bugbait"
 	"Enabled" "1"
 	"radius" "256"
+	"spawnflags" "0"
 	connections
 	{
 		"OnBaited" "booth_2_nodelink,TurnOn,,0,1"
@@ -97406,14 +97407,6 @@ entity
 	"spawnflags" "6180"
 	"target" "path_penn_a_1"
 	"targetname" "penn"
-	connections
-	{
-		"OnDeath" "propanetank_should_i_attack,Add,1,0,1"
-		"OnFourthDamage" "propanetank_should_i_attack,Add,1,0,1"
-		"OnDeath" "propanetank_both_gunships_down,Add,1,0,1"
-		"OnFirstDamage" "penn_vs_bullseyes_trigger,Enable,,0,1"
-		"OnDeath" "counter_gunship_death,Add,1,0,1"
-	}
 	"origin" "-1796 -3062 1907.13"
 	editor
 	{
@@ -97436,11 +97429,7 @@ entity
 	"targetname" "teller"
 	connections
 	{
-		"OnFourthDamage" "propanetank_should_i_attack,Add,1,0,1"
-		"OnDeath" "propanetank_both_gunships_down,Add,1,0,1"
-		"OnDeath" "propanetank_should_i_attack,Add,1,0,1"
-		"OnSecondDamage" "logic_spawn_penn,Trigger,,0,-1"
-		"OnDeath" "counter_gunship_death,Add,1,0,1"
+		"OnThirdDamage" "logic_spawn_penn,Trigger,,0,-1"
 	}
 	"origin" "-1766 -3554 1907.13"
 	editor
@@ -106293,7 +106282,7 @@ hidden
 				editor
 				{
 					"color" "220 30 220"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -106959,25 +106948,6 @@ entity
 }
 entity
 {
-	"id" "425959"
-	"classname" "math_counter"
-	"max" "2"
-	"targetname" "propanetank_both_gunships_down"
-	connections
-	{
-		"OnHitMax" "propanetank_blowup,Trigger,,1,-1"
-	}
-	"origin" "1872 -2052 1696"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[9000 -12768]"
-	}
-}
-entity
-{
 	"id" "426016"
 	"classname" "light"
 	"_light" "255 138 21 200"
@@ -107293,26 +107263,6 @@ entity
 }
 entity
 {
-	"id" "428548"
-	"classname" "math_counter"
-	"max" "3"
-	"targetname" "propanetank_should_i_attack"
-	connections
-	{
-		"OnHitMax" "propanetank_prepare_to_blow,Trigger,,0,1"
-		"OnHitMax" "propanetank_penn_freakout,Trigger,,0.1,1"
-	}
-	"origin" "1872 -2034 1696"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[9000 -4768]"
-	}
-}
-entity
-{
 	"id" "431014"
 	"classname" "env_cubemap"
 	"origin" "1656 -2040 1664"
@@ -107434,6 +107384,7 @@ entity
 	"classname" "ai_relationship"
 	"disposition" "1"
 	"rank" "50"
+	"spawnflags" "0"
 	"subject" "npc_antlion"
 	"target" "tower_7_soldier"
 	"targetname" "tower_7_bugbait_relationship"
@@ -117004,41 +116955,6 @@ entity
 }
 entity
 {
-	"id" "518290"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_ENTER_NOVAPROSPEKT"
-	"StartDisabled" "1"
-	"targetname" "achievement_twogunships"
-	"origin" "1864 -2128 1696"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "518314"
-	"classname" "math_counter"
-	"max" "2"
-	"targetname" "counter_gunship_death"
-	connections
-	{
-		"OnHitMax" "achievement_twogunships,FireEvent,,2,-1"
-	}
-	"origin" "1864 -2144 1696"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "318041"
 	"classname" "info_landmark"
 	"targetname" "prison1_to_2"
@@ -121012,8 +120928,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[1578.84 -1445.62 1680.99]"
-		"look" "[1557.98 -1508.81 1677.11]"
+		"position" "[4557.03 -3708.12 1716.12]"
+		"look" "[4507.3 -3668.33 1696.42]"
 	}
 }
 cordon

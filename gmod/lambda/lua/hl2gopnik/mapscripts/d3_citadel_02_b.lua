@@ -32,7 +32,7 @@ MAPSCRIPT.DefaultLoadout =
         ["SMG1_Grenade"] = 3,
         ["XBowBolt"] = 4,
     },
-    Armor = 80,
+    Armor = 100,
     HEV = true,
 }
 
@@ -67,28 +67,6 @@ end
 
 function MAPSCRIPT:Think()
 
-    if not SERVER then return end
-
-    local ct = CurTime()
-
-    for k,v in pairs(self.PlayerQueue or {}) do
-        if ct < v.timestamp then
-            continue
-        end
-        table.remove(self.PlayerQueue, k)
-
-        local ply = v.player
-        if IsValid(ply) and ply:Alive() == true then
-            local pod, tracktrain = self:CreatePlayerPod()
-            ply:RemoveEffects(EF_NODRAW)
-            ply:DrawWorldModel(true)
-            ply:DrawViewModel(true)
-            ply:EnterVehicle(pod)
-            tracktrain:Fire("StartForward")
-        end
-
-        break
-    end
 
 end
 
@@ -103,20 +81,7 @@ end
 
 function MAPSCRIPT:PostPlayerSpawn(ply)
 
-    DbgPrint("PostPlayerSpawn")
 
-    ply:LockPosition(true)
-    ply:SetMoveType(MOVETYPE_FLY)
-    ply:AddEffects(EF_NODRAW)
-    ply:DrawWorldModel(false)
-    ply:DrawViewModel(false)
-
-    table.insert(self.PlayerQueue, {
-        timestamp = self.NextPlayerPod,
-        player = ply
-    })
-
-    self.NextPlayerPod = self.NextPlayerPod + 4
 
 end
 

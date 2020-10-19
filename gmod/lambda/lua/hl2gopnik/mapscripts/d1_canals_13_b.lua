@@ -22,17 +22,17 @@ MAPSCRIPT.DefaultLoadout =
     },
     Ammo =
     {
-        ["Pistol"] = 20,
+        ["Pistol"] = 60,
         ["SMG1"] = 45,
         ["357"] = 6,
         ["Grenade"] = 3,
-        ["Buckshot"] = 12,
+        ["Buckshot"] = 24,
         ["AR2"] = 50,
         ["RPG_Round"] = 8,
         ["SMG1_Grenade"] = 3,
         ["XBowBolt"] = 4,
     },
-    Armor = 80,
+    Armor = 100,
     HEV = true,
 }
 
@@ -56,26 +56,6 @@ function MAPSCRIPT:Init()
 end
 
 function MAPSCRIPT:PostInit()
-
-    if SERVER then
-
-        local checkpoint1 = GAMEMODE:CreateCheckpoint(Vector(3435.695557, 1247.184448, -385.343903), Angle(0, 90, 0))
-        checkpoint1:SetVisiblePos(Vector(3369.119873, 2166.538818, -367.946716))
-
-        local checkpointTrigger1 = ents.Create("trigger_once")
-        checkpointTrigger1:SetupTrigger(
-            Vector(3425.643555, 2139.872314, -476.733490),
-            Angle(0, 0, 0),
-            Vector(-200, -400, 0),
-            Vector(200, 400, 280)
-        )
-        --checkpointTrigger1:RemoveEffects(EF_NODRAW)
-        checkpointTrigger1.OnTrigger = function(_, activator)
-            GAMEMODE:SetVehicleCheckpoint(Vector(3437.813477, 1579.182251, -455.238220), Angle(0, -90, 0))
-            GAMEMODE:SetPlayerCheckpoint(checkpoint1, activator)
-         end)
-
-    end
 
 end
 

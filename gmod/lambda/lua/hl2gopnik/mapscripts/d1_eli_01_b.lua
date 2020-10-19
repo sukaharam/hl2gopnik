@@ -61,31 +61,6 @@ end
 
 function MAPSCRIPT:PostInit()
 
-    if SERVER then
-
-        ents.WaitForEntityByName("filter_eli", function(ent)
-            ent:Remove()
-        end)
-
-        ents.WaitForEntityByName("eli", function(ent)
-            ent:SetHealth(100)
-        end)
-
-        ents.WaitForEntityByName("mossman", function(ent)
-            ent:SetHealth(100)
-        end)
-
-        -- Checkpoint
-        local checkpoint = GAMEMODE:CreateCheckpoint(Vector(-66.911217, 2753.892822, -1279.968750), Angle(0, 0, 0))
-        GAMEMODE:SetPlayerCheckpoint(checkpoint, activator)
-        end)
-
-        -- What is it with NPCs being busy?
-        ents.WaitForEntityByName("lcs_alyxtour01", function(ent)
-            ent:SetKeyValue("busyactor", "0")
-        end)
-
-    end
 
 end
 

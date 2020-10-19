@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "205"
+	"mapversion" "207"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "205"
+	"mapversion" "207"
 	"classname" "worldspawn"
 	"_ambient" "142 149 164 100"
 	"_light" "249 251 255 500"
@@ -94338,23 +94338,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -6268]"
-	}
-}
-entity
-{
-	"id" "1627"
-	"classname" "env_global"
-	"globalstate" "antlion_allied"
-	"initialstate" "0"
-	"spawnflags" "1"
-	"targetname" "antlions_friendly"
-	"origin" "2377.74 -653.34 712.328"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -5768]"
 	}
 }
 entity

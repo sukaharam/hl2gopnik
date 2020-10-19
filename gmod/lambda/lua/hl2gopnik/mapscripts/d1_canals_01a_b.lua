@@ -55,46 +55,6 @@ end
 
 function MAPSCRIPT:PostInit()
 
-    if SERVER then
-
-        local checkpoint1 = GAMEMODE:CreateCheckpoint(Vector(-1183.380615, 6344.419922, -59.326172), Angle(0, -180, 0))
-        local checkpointTrigger1 = ents.Create("trigger_once")
-        checkpointTrigger1:SetupTrigger(
-            Vector(-1183.380615, 6344.419922, 6.326172),
-            Angle(0,0,0),
-            Vector(-100, -100, 0),
-            Vector(100, 100, 180)
-        )
-        checkpointTrigger1.OnTrigger = function(_, activator)
-            GAMEMODE:SetPlayerCheckpoint(checkpoint1, activator)
-        end
-
-        local checkpoint2 = GAMEMODE:CreateCheckpoint(Vector(-3002.406494, 7870.711426, 12.031250), Angle(0, 90, 0))
-        local checkpointTrigger2 = ents.Create("trigger_once")
-        checkpointTrigger2:SetupTrigger(
-            Vector(-3002.406494, 7870.711426, 48.031250),
-            Angle(0,0,0),
-            Vector(-100, -100, 0),
-            Vector(100, 100, 180)
-        )
-        checkpointTrigger2.OnTrigger = function(_, activator)
-            GAMEMODE:SetPlayerCheckpoint(checkpoint2, activator)
-        end
-
-        local checkpoint3 = GAMEMODE:CreateCheckpoint(Vector(2104.908447, 5759.881348, -95.968750), Angle(0, 45, 0))
-        local checkpointTrigger3 = ents.Create("trigger_once")
-        checkpointTrigger3:SetupTrigger(
-            Vector(2104.908447, 5759.881348, -95.968750),
-            Angle(0,0,0),
-            Vector(-100, -100, 0),
-            Vector(100, 100, 180)
-        )
-        checkpointTrigger3.OnTrigger = function(_, activator)
-            GAMEMODE:SetPlayerCheckpoint(checkpoint3, activator)
-        end)
-
-    end
-
 end
 
 function MAPSCRIPT:PostPlayerSpawn(ply)

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "6824"
+	"mapversion" "6829"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "6824"
+	"mapversion" "6829"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3892,11 +3892,11 @@ world
 		{
 			"id" "91251"
 			"plane" "(-1008 432 -2944) (-1008 432 -3072) (-1008 -176 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3979,11 +3979,11 @@ world
 		{
 			"id" "91256"
 			"plane" "(-816 -176 -3072) (-816 -176 -2944) (-1008 -176 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		editor
@@ -4044,11 +4044,11 @@ world
 		{
 			"id" "91286"
 			"plane" "(-1008 -176 -3072) (-1008 432 -3072) (-1008 432 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4131,11 +4131,11 @@ world
 		{
 			"id" "91291"
 			"plane" "(-816 -176 -3200) (-816 -176 -3072) (-1008 -176 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		editor
@@ -4185,11 +4185,11 @@ world
 		{
 			"id" "91508"
 			"plane" "(-816 -176 -3328) (-816 -176 -3200) (-1008 -176 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4272,11 +4272,11 @@ world
 		{
 			"id" "91513"
 			"plane" "(-1008 -176 -3360) (-1008 -176 -3200) (-1008 432 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4359,11 +4359,11 @@ world
 		{
 			"id" "91558"
 			"plane" "(-1008 432 -3328) (-1008 432 -3456) (-1008 -176 -3456)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		editor
@@ -4413,11 +4413,11 @@ world
 		{
 			"id" "91566"
 			"plane" "(-816 -176 -3456) (-816 -176 -3328) (-1008 -176 -3328)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -25670,9 +25670,9 @@ world
 		{
 			"id" "129839"
 			"plane" "(-872 640 -3488) (-872 640 -3520) (-872 448 -3520)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 1"
-			"vaxis" "[0 0 -1 -24] 1"
+			"material" "CONCRETE/CONCRETEWALL032D"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 400] 0.25"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -30415,11 +30415,11 @@ world
 		{
 			"id" "131845"
 			"plane" "(-464 192 -3072) (-832 -176 -3072) (-832 -176 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30480,11 +30480,11 @@ world
 		{
 			"id" "131852"
 			"plane" "(-832 -176 -3328) (-464 192 -3328) (-464 192 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30567,11 +30567,11 @@ world
 		{
 			"id" "131857"
 			"plane" "(-832 -176 -3456) (-464 192 -3456) (-464 192 -3328)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30643,11 +30643,11 @@ world
 		{
 			"id" "131869"
 			"plane" "(-464 432 -3456) (-1008 432 -3456) (-1008 432 -3328)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30719,11 +30719,11 @@ world
 		{
 			"id" "131887"
 			"plane" "(-640 16 -3072) (-640 16 -2944) (-832 -176 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30795,11 +30795,11 @@ world
 		{
 			"id" "131893"
 			"plane" "(-640 16 -3072) (-464 192 -3072) (-464 192 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30871,11 +30871,11 @@ world
 		{
 			"id" "131917"
 			"plane" "(-464 432 -3072) (-704 432 -3072) (-704 432 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -30936,11 +30936,11 @@ world
 		{
 			"id" "131924"
 			"plane" "(-1008 432 -3328) (-1008 432 -3200) (-704 432 -3200)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31012,11 +31012,11 @@ world
 		{
 			"id" "131936"
 			"plane" "(-576 432 -3200) (-704 432 -3200) (-704 432 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31099,11 +31099,11 @@ world
 		{
 			"id" "131941"
 			"plane" "(-464 432 -3200) (-576 432 -3200) (-576 432 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31153,11 +31153,11 @@ world
 		{
 			"id" "131949"
 			"plane" "(-704 432 -3200) (-576 432 -3200) (-576 432 -3328)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31240,11 +31240,11 @@ world
 		{
 			"id" "131954"
 			"plane" "(-576 432 -3200) (-464 432 -3200) (-464 432 -3328)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31392,11 +31392,11 @@ world
 		{
 			"id" "132004"
 			"plane" "(-896 432 -3072) (-1008 432 -3072) (-1008 432 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31468,11 +31468,11 @@ world
 		{
 			"id" "132010"
 			"plane" "(-832 432 -3072) (-896 432 -3072) (-896 432 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31544,11 +31544,11 @@ world
 		{
 			"id" "132016"
 			"plane" "(-704 432 -3072) (-832 432 -3072) (-832 432 -2944)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31620,11 +31620,11 @@ world
 		{
 			"id" "132022"
 			"plane" "(-896 432 -3200) (-1008 432 -3200) (-1008 432 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31696,11 +31696,11 @@ world
 		{
 			"id" "132028"
 			"plane" "(-832 432 -3200) (-896 432 -3200) (-896 432 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -31772,11 +31772,11 @@ world
 		{
 			"id" "132034"
 			"plane" "(-704 432 -3200) (-832 432 -3200) (-832 432 -3072)"
-			"material" "PLASTER/PLASTERWALLPAPER006A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
-			"lightmapscale" "64"
+			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
@@ -64111,10 +64111,6 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "101.995 187.048 -3298.56"
 	editor
 	{
@@ -64131,10 +64127,6 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "101.9 213.809 -3303.01"
 	editor
 	{
@@ -80977,42 +80969,6 @@ entity
 }
 entity
 {
-	"id" "2511613"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_RAVENHOLMATTIC"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache_1"
-	"origin" "92.5311 144 -3277.51"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "2511615"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "relay_achievement_cache_1"
-	connections
-	{
-		"OnTrigger" "achievement_cache_1,FireEvent,,0,-1"
-	}
-	"origin" "92.5311 144 -3257.51"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
 	"id" "2511629"
 	"classname" "infodecal"
 	"angles" "0 0 0"
@@ -83342,8 +83298,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[93.0119 -1837.61 -2881.2]"
-		"look" "[84.8697 -1796.75 -2901.93]"
+		"position" "[104.029 247.077 -3279.33]"
+		"look" "[103.592 200.674 -3282.84]"
 	}
 }
 cordon

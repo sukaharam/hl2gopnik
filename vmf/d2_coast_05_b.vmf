@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2703"
+	"mapversion" "2707"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -176,7 +176,7 @@ viewsettings
 world
 {
 	"id" "58615"
-	"mapversion" "2703"
+	"mapversion" "2707"
 	"classname" "worldspawn"
 	"angles" "0 0 0"
 	"defaultteam" "0"
@@ -35796,11 +35796,11 @@ world
 		{
 			"id" "49722"
 			"plane" "(6144 6400 1344) (6144 6144 1344) (3072 6144 1344)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -18] 0.5"
-			"vaxis" "[-1 0 0 0] 0.4"
+			"material" "CONCRETE/CONCRETEWALL008A"
+			"uaxis" "[1 0 0 384] 0.5"
+			"vaxis" "[0 -1 0 -384] 0.5"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "646"
 			"smoothing_groups" "0"
 		}
 		side
@@ -35873,11 +35873,11 @@ world
 		{
 			"id" "49716"
 			"plane" "(6144 5632 1344) (6144 5376 1344) (3072 5376 1344)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -18] 0.5"
-			"vaxis" "[-1 0 0 0] 0.4"
+			"material" "CONCRETE/CONCRETEWALL008A"
+			"uaxis" "[1 0 0 384] 0.5"
+			"vaxis" "[0 -1 0 -384] 0.5"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "646"
 			"smoothing_groups" "0"
 		}
 		side
@@ -100185,7 +100185,6 @@ entity
 		"OnDeath" "tower_chair,EnableMotion,,0,-1"
 		"OnDeath" "combine_hide_3,StartSchedule,,0,-1"
 		"OnDeath" "combine_hide_2,StartSchedule,,0,-1"
-		"OnDeath" "relay_achievement,Trigger,,0.25,-1"
 	}
 	"origin" "-4476 -664 1540"
 	editor
@@ -122088,10 +122087,6 @@ entity
 	"angles" "0 105 -180"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "-3248.05 1396.63 1098.19"
 	editor
 	{
@@ -122564,157 +122559,6 @@ entity
 }
 entity
 {
-	"id" "754880"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_PIN_SOLDIER_TOBILLBOARD"
-	"StartDisabled" "1"
-	"targetname" "achievement_osha"
-	"origin" "-4543.98 -703.988 1606.59"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "757943"
-	"classname" "trigger_multiple"
-	"filtername" "filter_crossbow"
-	"origin" "-4487.78 -643.86 1604"
-	"spawnflags" "64"
-	"StartDisabled" "0"
-	"wait" ".6"
-	connections
-	{
-		"OnTrigger" "relay_achievement,Enable,,0,-1"
-		"OnTrigger" "relay_achievement,Disable,,0.5,-1"
-		"OnTrigger" "!activator,Kill,,0.5,-1"
-	}
-	solid
-	{
-		"id" "757915"
-		side
-		{
-			"id" "56614"
-			"plane" "(-4572.85 -752.005 1668) (-4602.63 -700.93 1668) (-4380.93 -572.93 1668)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.5 0.866025 0 -0.79945] 1"
-			"vaxis" "[0.866025 0.5 0 50.2172] 1"
-			"rotation" "0"
-			"lightmapscale" "64"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56613"
-			"plane" "(-4602.63 -700.93 1540) (-4572.85 -752.005 1540) (-4351.15 -623.995 1540)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.5 0.866025 0 -40.389] 0.25"
-			"vaxis" "[0.866025 0.5 0 23.3794] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56612"
-			"plane" "(-4572.85 -752.005 1540) (-4572.85 -752.005 1668) (-4351.15 -623.995 1668)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0.866025 0.5 0 53.8348] 1"
-			"vaxis" "[0 0 -1 4] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56611"
-			"plane" "(-4380.93 -572.93 1540) (-4380.93 -572.93 1668) (-4602.63 -700.93 1668)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.866024 -0.500003 0 -53.8288] 1"
-			"vaxis" "[0 0 -1 4] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56610"
-			"plane" "(-4602.63 -700.93 1540) (-4602.63 -700.93 1668) (-4572.85 -752.005 1668)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.5 0.866025 0 -40.389] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56609"
-			"plane" "(-4351.15 -623.995 1540) (-4351.15 -623.995 1668) (-4380.93 -572.93 1668)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.5 0.866025 0 -40.389] 0.25"
-			"vaxis" "[0 0 -1 16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "757957"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "1"
-	"targetname" "relay_achievement"
-	connections
-	{
-		"OnTrigger" "achievement_osha,FireEvent,,2,-1"
-	}
-	"origin" "-4484.42 -735.449 1608.47"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "757983"
-	"classname" "filter_activator_class"
-	"filterclass" "crossbow_bolt"
-	"Negated" "Allow entities that match criteria"
-	"targetname" "filter_crossbow"
-	"origin" "-4535.3 -764.826 1607.39"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
 	"id" "758042"
 	"classname" "info_constraint_anchor"
 	"massScale" "1"
@@ -122755,10 +122599,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "-3322.75 1287.16 1097.28"
 	editor
 	{
@@ -122781,10 +122621,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "-3373.82 1292.35 1097.28"
 	editor
 	{
@@ -123006,137 +122842,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7500 9500]"
-	}
-}
-entity
-{
-	"id" "761580"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "relay_cache"
-	connections
-	{
-		"OnTrigger" "achievement_cache,FireEvent,,0,1"
-	}
-	"origin" "-3248 1312 1100"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "761582"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_SUICIDECITIZEN"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache"
-	"origin" "-3264 1312 1100"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "761730"
-	"classname" "trigger_once"
-	"origin" "-3376 1344 1160"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	connections
-	{
-		"OnTrigger" "relay_cache,Trigger,,0,-1"
-	}
-	solid
-	{
-		"id" "761722"
-		side
-		{
-			"id" "56632"
-			"plane" "(-3184 1264 1224) (-3568 1264 1224) (-3568 1424 1224)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56631"
-			"plane" "(-3184 1424 1096) (-3568 1424 1096) (-3568 1264 1096)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56630"
-			"plane" "(-3184 1264 1096) (-3568 1264 1096) (-3568 1264 1224)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56629"
-			"plane" "(-3568 1424 1096) (-3184 1424 1096) (-3184 1424 1224)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56628"
-			"plane" "(-3568 1264 1096) (-3568 1424 1096) (-3568 1424 1224)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "56627"
-			"plane" "(-3184 1424 1096) (-3184 1264 1096) (-3184 1264 1224)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 32] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
 	}
 }
 entity
@@ -142679,8 +142384,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3076.71 -824.871 1429.52]"
-		"look" "[-3114.45 -380.355 1194.21]"
+		"position" "[2861.91 -7324.23 1892.37]"
+		"look" "[3224.78 -7654.43 1775.4]"
 	}
 	camera
 	{

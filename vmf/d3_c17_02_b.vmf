@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2920"
+	"mapversion" "2922"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -122,7 +122,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "2920"
+	"mapversion" "2922"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -145173,10 +145173,6 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "-10212 -6192 88"
 	editor
 	{
@@ -146769,154 +146765,6 @@ entity
 	editor
 	{
 		"color" "180 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "1025136"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_GMAN_FOYERTV"
-	"StartDisabled" "1"
-	"targetname" "achievement_gman_sighting_1"
-	"origin" "-5036 -4980 39.4742"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "1026888"
-	"classname" "trigger_once"
-	"origin" "-10176 -6210 128"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	connections
-	{
-		"OnTrigger" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
-	solid
-	{
-		"id" "1026883"
-		side
-		{
-			"id" "118683"
-			"plane" "(-10112 -6112 64) (-10112 -6308 64) (-10112 -6308 192)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118682"
-			"plane" "(-10112 -6308 64) (-10112 -6112 64) (-10240 -6112 64)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[1 0 0 63.996] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118681"
-			"plane" "(-10240 -6308 192) (-10240 -6112 192) (-10112 -6112 192)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118680"
-			"plane" "(-10240 -6308 64) (-10240 -6112 64) (-10240 -6112 192)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118679"
-			"plane" "(-10112 -6308 192) (-10112 -6308 64) (-10240 -6308 64)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "118678"
-			"plane" "(-10240 -6112 64) (-10112 -6112 64) (-10112 -6112 192)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupid" "3"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "1026895"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_STREETWARDOGWALL"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache_1"
-	"origin" "-10164 -6140 212"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "1026906"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "1"
-	"targetname" "relay_achievement_cache_1"
-	connections
-	{
-		"OnTrigger" "achievement_cache_1,FireEvent,,0,-1"
-	}
-	"origin" "-10164 -6140 232"
-	editor
-	{
-		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -152183,8 +152031,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-4962.92 -3790.41 176.954]"
-		"look" "[-4964.06 -3808.86 173.278]"
+		"position" "[-4998.86 -4920.58 94.8577]"
+		"look" "[-5003.29 -4928.53 78.3558]"
 	}
 }
 cordon

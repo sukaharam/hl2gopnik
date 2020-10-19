@@ -61,16 +61,6 @@ end
 
 function MAPSCRIPT:PostInit()
 
-    if SERVER then
-
-
-        -- Fix point_viewcontrol, affect all players.
-        for k,v in pairs(ents.FindByClass("point_viewcontrol")) do
-            v:SetKeyValue("spawnflags", "128") -- SF_CAMERA_PLAYER_MULTIPLAYER_ALL
-        end)
-        
-    end
-
 end
 
 return MAPSCRIPT

@@ -19,12 +19,12 @@ MAPSCRIPT.DefaultLoadout =
 
 MAPSCRIPT.InputFilters =
 {
-    -- ["pod"] = { "EnterVehicleImmediate" }
+ 
 }
 
 MAPSCRIPT.EntityFilterByClass =
 {
-    --["env_global"] = true,
+
 }
 
 MAPSCRIPT.EntityFilterByName =
@@ -44,6 +44,19 @@ function MAPSCRIPT:PostInit()
 
     if SERVER then
 
+        --breen's office checkpoint
+        local checkpoint1 = GAMEMODE:CreateCheckpoint(Vector(-1968, 224, 624), Angle(0, 45, 0))
+        local checkpointTrigger1 = ents.Create("trigger_once")
+        checkpointTrigger1:SetupTrigger(
+            Vector(-1968, -160, 584),
+            Angle(0, 0, 0),
+            Vector(-64, -64, 0),
+            Vector(64, 64, 128)
+        )
+        checkpointTrigger1.OnTrigger = function(_, activator)
+            GAMEMODE:SetPlayerCheckpoint(checkpoint1, activator)
+        end
+	
     end
 
 end

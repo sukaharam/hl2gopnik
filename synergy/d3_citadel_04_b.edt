@@ -56,6 +56,7 @@ d3_citadel_04_b
 			values
 			{
 				targetname			"coop_push_trigger"
+				spawnflags			"1"
 				pushdir				"0 90 0"
 				speed				"800"
 				edt_mins			"-64.000000 -24.000000 -128.000000"

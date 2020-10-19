@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "2587"
+	"mapversion" "2599"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -542,19 +542,37 @@ visgroups
 		"visgroupid" "117"
 		"color" "139 168 121"
 	}
+	visgroup
+	{
+		"name" "_orphaned hidden"
+		"visgroupid" "118"
+		"color" "124 109 226"
+	}
+	visgroup
+	{
+		"name" "_orphaned hidden"
+		"visgroupid" "119"
+		"color" "132 165 202"
+	}
+	visgroup
+	{
+		"name" "_orphaned hidden"
+		"visgroupid" "120"
+		"color" "147 144 113"
+	}
 }
 viewsettings
 {
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "128"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "58615"
-	"mapversion" "2587"
+	"mapversion" "2599"
 	"classname" "worldspawn"
 	"_ambient" "142 149 164 100"
 	"_light" "249 251 255 500"
@@ -69498,6 +69516,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 10500]"
@@ -69789,6 +69810,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 11000]"
@@ -69992,6 +70016,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 11500]"
@@ -70062,6 +70089,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 12000]"
@@ -70353,6 +70383,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 12500]"
@@ -70418,6 +70451,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 13000]"
@@ -70488,6 +70524,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 13500]"
@@ -70779,6 +70818,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 14000]"
@@ -70982,6 +71024,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 14500]"
@@ -71052,6 +71097,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 15000]"
@@ -71343,6 +71391,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 15500]"
@@ -71408,6 +71459,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 16000]"
@@ -71643,6 +71697,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -13268]"
@@ -71713,6 +71770,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -12768]"
@@ -71789,6 +71849,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -12268]"
@@ -71859,6 +71922,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -11768]"
@@ -71929,6 +71995,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -11268]"
@@ -71999,6 +72068,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -10768]"
@@ -72069,6 +72141,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -10268]"
@@ -72143,6 +72218,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -9768]"
@@ -72213,6 +72291,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -9268]"
@@ -72286,6 +72367,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -8768]"
@@ -72440,6 +72524,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -8268]"
@@ -72594,6 +72681,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -7768]"
@@ -72748,6 +72838,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -7268]"
@@ -72902,6 +72995,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -6768]"
@@ -73056,6 +73152,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -6268]"
@@ -73210,6 +73309,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -5768]"
@@ -73364,6 +73466,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -5268]"
@@ -73518,6 +73623,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -4768]"
@@ -73672,6 +73780,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -4268]"
@@ -73826,6 +73937,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -3768]"
@@ -73980,6 +74094,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -3268]"
@@ -74134,6 +74251,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -2768]"
@@ -74288,6 +74408,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -2268]"
@@ -74442,6 +74565,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -1768]"
@@ -74596,6 +74722,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -1268]"
@@ -74750,6 +74879,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[1500 -768]"
@@ -74904,6 +75036,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 0]"
@@ -75058,6 +75193,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 500]"
@@ -75212,6 +75350,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 1000]"
@@ -75366,6 +75507,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 1500]"
@@ -75520,6 +75664,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 2000]"
@@ -75674,6 +75821,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 2500]"
@@ -75828,6 +75978,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 3000]"
@@ -75982,6 +76135,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 3500]"
@@ -76136,6 +76292,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 4000]"
@@ -76290,6 +76449,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 4500]"
@@ -76444,6 +76606,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 5000]"
@@ -76598,6 +76763,9 @@ hidden
 			"visgroupid" "115"
 			"visgroupid" "116"
 			"visgroupid" "117"
+			"visgroupid" "118"
+			"visgroupid" "119"
+			"visgroupid" "120"
 			"visgroupshown" "0"
 			"visgroupautoshown" "1"
 			"logicalpos" "[2000 5500]"
@@ -77401,6 +77569,7 @@ entity
 	"classname" "path_track"
 	"angles" "0 0 0"
 	"orientationtype" "1"
+	"spawnflags" "0"
 	"target" "path_c_11"
 	"targetname" "path_c_10"
 	connections
@@ -77447,6 +77616,7 @@ entity
 	"classname" "path_track"
 	"angles" "0 0 0"
 	"orientationtype" "1"
+	"spawnflags" "0"
 	"target" "path_c_14"
 	"targetname" "path_c_13"
 	connections
@@ -94960,7 +95130,7 @@ entity
 	"id" "253235"
 	"classname" "trigger_multiple"
 	"origin" "2416 5420.8 1184"
-	"spawnflags" "1"
+	"spawnflags" "0"
 	"StartDisabled" "0"
 	"wait" "0"
 	connections
@@ -95062,7 +95232,7 @@ entity
 	"id" "253256"
 	"classname" "trigger_multiple"
 	"origin" "2416 5612.8 1184"
-	"spawnflags" "1"
+	"spawnflags" "0"
 	"StartDisabled" "0"
 	"wait" "0"
 	connections
@@ -104797,7 +104967,6 @@ entity
 	"waitingtorappel" "No"
 	connections
 	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
 		"OnDamaged" "crane_getem,Kill,,0,-1"
 	}
 	"origin" "5527.8 -3445.2 387"
@@ -104828,7 +104997,6 @@ entity
 	"waitingtorappel" "No"
 	connections
 	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
 		"OnDamaged" "crane_getem,Kill,,0,-1"
 	}
 	"origin" "5712 -3440 387"
@@ -104859,7 +105027,6 @@ entity
 	"waitingtorappel" "No"
 	connections
 	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
 		"OnDamaged" "crane_getem,Kill,,0,-1"
 	}
 	"origin" "5520 -3504 385"
@@ -105018,10 +105185,6 @@ entity
 	"squadname" "warehouse1_squad"
 	"targetname" "warehouse1_soldier1"
 	"waitingtorappel" "No"
-	connections
-	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
-	}
 	"origin" "5457.57 -4413.14 417"
 	editor
 	{
@@ -105049,10 +105212,6 @@ entity
 	"squadname" "warehouse1_squad"
 	"targetname" "warehouse1_soldier3"
 	"waitingtorappel" "No"
-	connections
-	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
-	}
 	"origin" "5793.71 -4084.2 385"
 	editor
 	{
@@ -105392,10 +105551,6 @@ entity
 	"squadname" "warehouse1_squad"
 	"targetname" "warehouse1_soldier2"
 	"waitingtorappel" "No"
-	connections
-	{
-		"OnDeath" "counter_cranekill,Add,1,0,-1"
-	}
 	"origin" "5408 -3488 385"
 	editor
 	{
@@ -106240,11 +106395,12 @@ entity
 	"angles" "0 326 0"
 	"orientationtype" "1"
 	"spawnflags" "0"
+	"target" "path_d_1"
 	"targetname" "path_c_8"
 	connections
 	{
-		"OnPass" "gunship,SetTrack,path_c_11,0,1"
-		"OnPass" "gunship,StartPatrol,,0,1"
+		"OnPass" "gunship,SetTrack,path_d_1,0,1"
+		"_OnPass" "gunship,StartPatrol,,0,1"
 		"OnPass" "gunship_enemyfinder,TurnOn,,1,1"
 		"OnPass" "gunship,OmniscientOn,,0,1"
 	}
@@ -108763,8 +108919,6 @@ entity
 		"PlayerOn" "ladder,Disable,,0,-1"
 		"PlayerOff" "ladder,Enable,,5,-1"
 		"PlayerOn" "crane_soldier_kill,Enable,,0,1"
-		"PlayerOn" "counter_cranekill,Enable,,0,-1"
-		"PlayerOff" "counter_cranekill,Disable,,0,-1"
 		"PlayerOn" "cargo_container_01,EnableMotion,,0,-1"
 	}
 	editor
@@ -129451,7 +129605,7 @@ entity
 	"squadname" "gunship_squad"
 	"target" "path_c_3"
 	"targetname" "gunship"
-	"origin" "-5950.54 -640.305 903.13"
+	"origin" "-8106.12 -111.964 903.13"
 	editor
 	{
 		"color" "0 200 200"
@@ -129481,7 +129635,7 @@ entity
 		"OnSpawnNPC" "gunship,StopBreakableMovement,,0.1,-1"
 		"OnSpawnNPC" "gunship,OmniscientOn,,0.2,-1"
 	}
-	"origin" "-5668.42 -640.341 897"
+	"origin" "-7824 -112 897"
 	editor
 	{
 		"color" "0 0 255"
@@ -135536,7 +135690,7 @@ entity
 	{
 		"OnTrigger" "gunship,StartPatrol,,0,-1"
 		"OnTrigger" "gunship,SetTrack,path_d_6,0,-1"
-		"OnTrigger" "hate_gas_cannisters,ApplyRelationship,,0,-1"
+		"_OnTrigger" "hate_gas_cannisters,ApplyRelationship,,0,-1"
 	}
 	solid
 	{
@@ -140730,10 +140884,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "2256 6664 1175"
 	editor
 	{
@@ -140757,10 +140907,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "2216 6622 1174"
 	editor
 	{
@@ -140784,10 +140930,6 @@ entity
 	"modelscale" "1.0"
 	"physdamagescale" "0.1"
 	"spawnflags" "256"
-	connections
-	{
-		"OnCacheInteraction" "relay_cache,Trigger,,0,-1"
-	}
 	"origin" "2236 6570 1178"
 	editor
 	{
@@ -142345,6 +142487,7 @@ entity
 	"classname" "path_track"
 	"angles" "0 0 0"
 	"orientationtype" "1"
+	"spawnflags" "0"
 	"target" "path_c_8"
 	"targetname" "path_c_6"
 	"origin" "-2432 896 1152"
@@ -149229,80 +149372,6 @@ entity
 }
 entity
 {
-	"id" "802589"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_KILL_ENEMIES_WITHCRANE"
-	"StartDisabled" "1"
-	"targetname" "achievement_crane"
-	"origin" "4521.52 -1785.64 681"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "802595"
-	"classname" "math_counter"
-	"max" "3"
-	"min" "0"
-	"StartDisabled" "1"
-	"startvalue" "0"
-	"targetname" "counter_cranekill"
-	connections
-	{
-		"OnHitMax" "achievement_crane,FireEvent,,0.5,-1"
-	}
-	"origin" "4519.89 -1806.39 681"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "805768"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "relay_cache"
-	connections
-	{
-		"OnTrigger" "achievement_cache,FireEvent,,0,-1"
-	}
-	"origin" "2296 6632 1196"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "805770"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_GUNSHIPVAN"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache"
-	"origin" "2280 6632 1196"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "809008"
 	"classname" "info_overlay"
 	"angles" "0 90 0"
@@ -152397,7 +152466,7 @@ entity
 {
 	"id" "834251"
 	"classname" "trigger_multiple"
-	"origin" "3526.4 3864 1136"
+	"origin" "4006.4 4794.67 1408"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"wait" "0"
@@ -152406,9 +152475,9 @@ entity
 		"OnTrigger" "ontherun_begin_assault,Activate,,0.5,1"
 		"OnTrigger" "dock_antlion_spawner,Spawn,,0,1"
 		"OnTrigger" "dock_spawn,ForceSpawn,,0,1"
-		"OnTrigger" "wussy_relay,Trigger,,15,1"
+		"_OnTrigger" "wussy_relay,Trigger,,15,1"
 		"OnTrigger" "gunship,SetRelationship,npc_citizen D_NU 1,0.6,1"
-		"OnTrigger" "gunship_vs_player_neutral,ApplyRelationship,,0.5,1"
+		"_OnTrigger" "gunship_vs_player_neutral,ApplyRelationship,,0.5,1"
 		"OnTrigger" "autosave,SaveDangerous,4,0,1"
 		"OnTrigger" "gunship_spawner,Spawn,,0,1"
 	}
@@ -152418,7 +152487,7 @@ entity
 		side
 		{
 			"id" "65043"
-			"plane" "(2944 3776 1376) (2112 3776 1376) (2112 3968 1376)"
+			"plane" "(3200 4736 1920) (2048 4736 1920) (2048 4864 1920)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 32] 1"
 			"vaxis" "[-1 0 0 0] 1"
@@ -152429,7 +152498,7 @@ entity
 		side
 		{
 			"id" "65042"
-			"plane" "(2944 3968 896) (2112 3968 896) (2112 3776 896)"
+			"plane" "(3200 4864 896) (2048 4864 896) (2048 4736 896)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -32] 1"
 			"vaxis" "[-1 0 0 0] 1"
@@ -152440,7 +152509,7 @@ entity
 		side
 		{
 			"id" "65041"
-			"plane" "(2112 3968 896) (2944 3968 896) (2944 3968 1376)"
+			"plane" "(2048 4864 896) (3200 4864 896) (3200 4864 1920)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 0] 1"
 			"vaxis" "[0 0 -1 32] 1"
@@ -152451,7 +152520,7 @@ entity
 		side
 		{
 			"id" "65040"
-			"plane" "(2944 3776 896) (2112 3776 896) (2112 3776 1376)"
+			"plane" "(3200 4736 896) (2048 4736 896) (2048 4736 1920)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 1"
 			"vaxis" "[0 0 -1 32] 1"
@@ -152462,7 +152531,7 @@ entity
 		side
 		{
 			"id" "65039"
-			"plane" "(2944 3968 896) (2944 3776 896) (2944 3776 1376)"
+			"plane" "(3200 4864 896) (3200 4736 896) (3200 4736 1920)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -32] 1"
 			"vaxis" "[0 0 -1 32] 1"
@@ -152473,7 +152542,7 @@ entity
 		side
 		{
 			"id" "65038"
-			"plane" "(2112 3776 896) (2112 3968 896) (2112 3968 1376)"
+			"plane" "(2048 4736 896) (2048 4864 896) (2048 4864 1920)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 32] 1"
 			"vaxis" "[0 0 -1 32] 1"
@@ -154973,7 +155042,7 @@ entity
 	"wait" "0"
 	connections
 	{
-		"OnTrigger" "wussy_relay,Trigger,,0,1"
+		"_OnTrigger" "wussy_relay,Trigger,,0,1"
 		"OnTrigger" "autosave,SaveDangerous,4,0,1"
 	}
 	solid
@@ -155085,8 +155154,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-614.134 200.535 1647.79]"
-		"look" "[-615.024 200.637 1647.26]"
+		"position" "[-882.729 733.568 1623.9]"
+		"look" "[-883.43 732.95 1623.45]"
 	}
 }
 cordon

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "1825"
+	"mapversion" "1829"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "587421"
-	"mapversion" "1825"
+	"mapversion" "1829"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -87043,7 +87043,6 @@ entity
 		"OnTrigger" "barricade_shake_1,StartShake,,0,-1"
 		"OnTrigger" "barricade_shooter_1,Shoot,,0,-1"
 		"OnTrigger" "barricade_rebar_wall,Disable,,0,-1"
-		"OnTrigger" "game_over_rl,Kill,,0,-1"
 		"OnTrigger" "rubble_tunnel_bl_3,Activate,,0,-1"
 		"OnTrigger" "citizen_rubble_tunnel,SetRelationship,npc_metropolice D_HT 9999,0,-1"
 		"OnTrigger" "citizen_rubble_cs_5,Start,,1,-1"
@@ -87732,68 +87731,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4500 -5268]"
-	}
-}
-entity
-{
-	"id" "301944"
-	"classname" "game_text"
-	"channel" "1"
-	"color" "100 100 100"
-	"color2" "240 110 0"
-	"fadein" "1.5"
-	"fadeout" "0.5"
-	"fxtime" "0.25"
-	"holdtime" "10"
-	"message" "You have failed."
-	"targetname" "game_over_text"
-	"x" "-1"
-	"y" "-1"
-	"origin" "2633 2607.5 -270.184"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -4768]"
-	}
-}
-entity
-{
-	"id" "301950"
-	"classname" "logic_relay"
-	"targetname" "game_over_rl"
-	connections
-	{
-		"OnTrigger" "game_over_text,Display,,0,-1"
-		"OnTrigger" "game_over_loadsaved,Reload,,0,-1"
-	}
-	"origin" "2633 2617.94 -237.996"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -4268]"
-	}
-}
-entity
-{
-	"id" "301962"
-	"classname" "player_loadsaved"
-	"duration" "2"
-	"holdtime" "10"
-	"loadtime" "5"
-	"renderamt" "255"
-	"rendercolor" "0 0 0"
-	"targetname" "game_over_loadsaved"
-	"origin" "2641 2646.26 -238.897"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -3768]"
 	}
 }
 entity
@@ -89376,10 +89313,6 @@ entity
 	"angles" "0 0 90"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3619.91 -1805.09 -318.561"
 	editor
 	{
@@ -89397,10 +89330,6 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"spawnflags" "0"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3643 -1813 -318"
 	editor
 	{
@@ -92744,10 +92673,6 @@ entity
 	"angles" "0 0 90"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3626 -1832 -318.561"
 	editor
 	{
@@ -95074,10 +94999,6 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3602.93 -1752.39 -322.746"
 	editor
 	{
@@ -95094,10 +95015,6 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3612.8 -1774.69 -322.746"
 	editor
 	{
@@ -95114,10 +95031,6 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	connections
-	{
-		"OnCacheInteraction" "relay_achievement_cache_1,Trigger,,0,-1"
-	}
 	"origin" "3586.8 -1758.68 -322.746"
 	editor
 	{
@@ -126754,22 +126667,6 @@ entity
 }
 entity
 {
-	"id" "595672"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_BEAT_TOXICTUNNEL"
-	"StartDisabled" "1"
-	"targetname" "achievement"
-	"origin" "2505 4420.03 -91.8923"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13000 3000]"
-	}
-}
-entity
-{
 	"id" "601216"
 	"classname" "env_cubemap"
 	"origin" "2985 -726.594 -214"
@@ -126812,42 +126709,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "607449"
-	"classname" "logic_achievement"
-	"AchievementEvent" "ACHIEVEMENT_EVENT_HL2_LAMDACACHE_FREEWAYTUNNEL"
-	"StartDisabled" "1"
-	"targetname" "achievement_cache_1"
-	"origin" "3781.96 -1785.83 -243.223"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "607451"
-	"classname" "logic_relay"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "relay_achievement_cache_1"
-	connections
-	{
-		"OnTrigger" "achievement_cache_1,FireEvent,,0,-1"
-	}
-	"origin" "3781.96 -1785.83 -223.223"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2000]"
 	}
 }
 entity
@@ -127484,7 +127345,6 @@ entity
 	{
 		"OnTrigger" "citizen_rubble_tunnel_wav_1,PlaySound,,0,-1"
 		"OnTrigger" "citizen_rubble_tunnel_maker,Spawn,,0,-1"
-		"OnTrigger" "achievement,FireEvent,,0,-1"
 		"OnTrigger" "slime_timer,Disable,,0,-1"
 	}
 	solid
@@ -131719,8 +131579,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3722.35 6295.52 -76.3535]"
-		"look" "[3450.66 6267.69 -146.477]"
+		"position" "[2807.66 2728.09 -264.967]"
+		"look" "[2851.14 2456.26 -326.046]"
 	}
 	camera
 	{

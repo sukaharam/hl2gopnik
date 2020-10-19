@@ -13,7 +13,7 @@ MAPSCRIPT.DefaultLoadout =
     Ammo =
     {
     },
-    Armor = 80,
+    Armor = 100,
     HEV = true,
 }
 

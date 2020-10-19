@@ -55,10 +55,7 @@ end
 
 function MAPSCRIPT:PostInit()
 
-    if SERVER then
 
-
-    end
 
 end
 
