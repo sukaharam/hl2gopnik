@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8372"
-	"mapversion" "2748"
+	"editorbuild" "8157"
+	"mapversion" "2750"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -116,13 +116,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "0"
-	"mapversion" "2748"
+	"mapversion" "2750"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -123069,31 +123069,6 @@ entity
 }
 entity
 {
-	"id" "729881"
-	"classname" "env_fog_controller"
-	"angles" "0 0 0"
-	"farz" "-1"
-	"fogblend" "1"
-	"fogcolor" "223 216 173"
-	"fogcolor2" "106 108 115"
-	"fogdir" "0 0 0"
-	"fogenable" "1"
-	"fogend" "15000"
-	"fogmaxdensity" "1"
-	"fogstart" "2048"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"origin" "-3312 -3504 696"
-	editor
-	{
-		"color" "255 255 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 12000]"
-	}
-}
-entity
-{
 	"id" "729883"
 	"classname" "infodecal"
 	"angles" "0 0 0"
@@ -129893,7 +129868,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8452"
+	"spawnflags" "260"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_knockout_cop1"
 	"waitingtorappel" "No"
@@ -129922,7 +129897,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8196"
+	"spawnflags" "4"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_knockout_cop2"
 	"waitingtorappel" "No"
@@ -129973,7 +129948,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8452"
+	"spawnflags" "260"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_knockout_cop_kickdoor"
 	"waitingtorappel" "No"
@@ -133522,22 +133497,6 @@ entity
 }
 entity
 {
-	"id" "730922"
-	"classname" "shadow_control"
-	"angles" "80 165 0"
-	"color" "128 128 128"
-	"distance" "75"
-	"origin" "-3328.7 -3515.08 649"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 4000]"
-	}
-}
-entity
-{
 	"id" "730924"
 	"classname" "func_smokevolume"
 	"Color1" "255 255 255"
@@ -134840,7 +134799,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8192"
+	"spawnflags" "0"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_knockout_cop_upstairs"
 	"waitingtorappel" "No"
@@ -135375,7 +135334,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8192"
+	"spawnflags" "0"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_knockout_cop_upstairs"
 	"waitingtorappel" "No"
@@ -135840,7 +135799,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "8452"
+	"spawnflags" "260"
 	"squadname" "squad_knockoutcops"
 	"targetname" "npc_kickdoor_policer"
 	"waitingtorappel" "No"
@@ -149483,6 +149442,47 @@ hidden
 		}
 	}
 }
+entity
+{
+	"id" "786811"
+	"classname" "env_fog_controller"
+	"angles" "0 0 0"
+	"farz" "-1"
+	"fogblend" "1"
+	"fogcolor" "223 216 173"
+	"fogcolor2" "106 108 115"
+	"fogdir" "0 0 0"
+	"fogenable" "1"
+	"fogend" "15000"
+	"fogmaxdensity" "1"
+	"fogstart" "2048"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"origin" "-5216 -3680 768"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 12000]"
+	}
+}
+entity
+{
+	"id" "786813"
+	"classname" "shadow_control"
+	"angles" "80 165 0"
+	"color" "128 128 128"
+	"distance" "75"
+	"origin" "-5216 -3680 736"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 4000]"
+	}
+}
 cameras
 {
 	"activecamera" "3"
@@ -149503,8 +149503,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-7453.49 -4148.77 -188.472]"
-		"look" "[-7553.45 -3982.7 -163.367]"
+		"position" "[-7852.79 -3704.06 712.481]"
+		"look" "[-7732.46 -3812.54 603.122]"
 	}
 }
 cordon

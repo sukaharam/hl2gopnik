@@ -48,6 +48,8 @@ MAPSCRIPT.EntityFilterByClass =
 MAPSCRIPT.EntityFilterByName =
 {
     ["global_newgame_entmaker"] = true,
+	["template_airboat"] = true,
+	["player_items_template"] = true,
 }
 
 function MAPSCRIPT:Init()

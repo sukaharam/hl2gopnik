@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8372"
-	"mapversion" "119"
+	"mapversion" "118"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "119"
+	"mapversion" "118"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v0.99 from d1_trainstation_05.bsp"
 	"detailmaterial" "detail/detailsprites"

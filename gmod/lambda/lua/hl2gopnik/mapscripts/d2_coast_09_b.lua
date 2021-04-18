@@ -51,6 +51,7 @@ MAPSCRIPT.EntityFilterByName =
     ["global_newgame_template_local_items"] = true,
     ["global_newgame_template_base_items"] = true,
 	["player_items_template"] = true,
+	["jeep_template"] = true,
 }
 
 MAPSCRIPT.VehicleGuns = true

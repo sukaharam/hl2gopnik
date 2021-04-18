@@ -49,6 +49,7 @@ MAPSCRIPT.EntityFilterByClass =
 MAPSCRIPT.EntityFilterByName =
 {
     ["player_items_template"] = true,
+	["template_airboat"] = true,
 }
 
 MAPSCRIPT.VehicleGuns = false

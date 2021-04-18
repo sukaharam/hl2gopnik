@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8372"
+	"editorbuild" "8157"
 	"mapversion" "4557"
 	"formatversion" "100"
 	"prefab" "0"
@@ -10216,7 +10216,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[0 2048 256]"
+				"startposition" "[-0 2048 256]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -10421,7 +10421,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[0 4352 1664]"
+				"startposition" "[-0 4352 1664]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -27305,7 +27305,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[6272 2112 0]"
+				"startposition" "[6272 2112 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "1"
@@ -62881,8 +62881,8 @@ entity
 		{
 			"id" "40435"
 			"plane" "(5509.25 976 964) (5509.25 976 1020) (5509.25 944 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 -1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 -1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -63395,8 +63395,8 @@ entity
 		{
 			"id" "40459"
 			"plane" "(5509.25 1104 964) (5509.25 1104 1020) (5509.25 1072 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 -1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 -1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -63909,8 +63909,8 @@ entity
 		{
 			"id" "40483"
 			"plane" "(5509.25 1232 964) (5509.25 1232 1020) (5509.25 1200 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 -1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 -1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -64423,8 +64423,8 @@ entity
 		{
 			"id" "40507"
 			"plane" "(4602.75 1200 964) (4602.75 1200 1020) (4602.75 1232 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -64937,8 +64937,8 @@ entity
 		{
 			"id" "40531"
 			"plane" "(4602.75 1072 964) (4602.75 1072 1020) (4602.75 1104 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -65451,8 +65451,8 @@ entity
 		{
 			"id" "40555"
 			"plane" "(4602.75 944 964) (4602.75 944 1020) (4602.75 976 1020)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -66063,8 +66063,8 @@ entity
 		{
 			"id" "43149"
 			"plane" "(5509.19 944 1092) (5509.19 976 1092) (5509.19 976 1148)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 -1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 -1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -66476,8 +66476,8 @@ entity
 		{
 			"id" "43167"
 			"plane" "(4602.81 1104 1092) (4602.81 1072 1092) (4602.81 1072 1148)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 1 0 0] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -66857,8 +66857,8 @@ entity
 		{
 			"id" "92"
 			"plane" "(5890.58 64 960) (5890.58 64 1024) (5890.58 96 1024)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0 1 0 16] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0 1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67376,8 +67376,8 @@ entity
 		{
 			"id" "44767"
 			"plane" "(5952 253.188 960) (5952 253.188 1024) (5984 253.188 1024)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[1 0 0 16] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[1 0 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -67895,7 +67895,7 @@ entity
 		{
 			"id" "44791"
 			"plane" "(6269.19 96 960) (6269.19 96 1024) (6269.19 64 1024)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "LIGHTS/WHITE002"
 			"uaxis" "[0 -1 0 -16] 1"
 			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
@@ -72191,8 +72191,8 @@ entity
 		{
 			"id" "40747"
 			"plane" "(8115.46 1314.55 1504) (8115.46 1314.55 1568) (8088.93 1332.44 1568)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[-0.829105 0.559092 0 -24.9386] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[-0.829105 0.559092 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -72702,8 +72702,8 @@ entity
 		{
 			"id" "40771"
 			"plane" "(8115.46 1314.55 1760) (8115.46 1314.55 1824) (8088.93 1332.44 1824)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[-0.829105 0.559092 0 -24.9389] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[-0.829105 0.559092 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -73213,8 +73213,8 @@ entity
 		{
 			"id" "40795"
 			"plane" "(8115.46 1314.55 2016) (8115.46 1314.55 2080) (8088.93 1332.44 2080)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[-0.829105 0.559092 0 -24.9384] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[-0.829105 0.559092 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -73724,8 +73724,8 @@ entity
 		{
 			"id" "40819"
 			"plane" "(8115.46 1314.55 2144) (8115.46 1314.55 2208) (8088.93 1332.44 2208)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[-0.829105 0.559092 0 -24.9381] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[-0.829105 0.559092 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -74235,8 +74235,8 @@ entity
 		{
 			"id" "40915"
 			"plane" "(8332.33 1693.51 1632) (8332.33 1693.51 1696) (8358.86 1675.62 1696)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0.829108 -0.559088 0 24.8161] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0.829108 -0.559088 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -74748,8 +74748,8 @@ entity
 		{
 			"id" "40939"
 			"plane" "(8332.33 1693.51 1888) (8332.33 1693.51 1952) (8358.86 1675.62 1952)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0.829108 -0.559088 0 24.816] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0.829108 -0.559088 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -75261,8 +75261,8 @@ entity
 		{
 			"id" "40987"
 			"plane" "(8332.33 1693.51 2144) (8332.33 1693.51 2208) (8358.86 1675.62 2208)"
-			"material" "DEV/DEV_WINDOWPORTAL"
-			"uaxis" "[0.829108 -0.559088 0 24.8161] 1"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[0.829108 -0.559088 0 -25] 1"
 			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -91073,9 +91073,9 @@ entity
 		{
 			"id" "33317"
 			"plane" "(5964 -219 1040) (5908 -219 1040) (5908 -219 928)"
-			"material" "TOOLS/TOOLSBLACK"
-			"uaxis" "[1 0 0 4.36859] 0.38"
-			"vaxis" "[0 0 -1 9.38095] 0.42"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[1 0 0 -16] 1"
+			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -93402,9 +93402,9 @@ entity
 		{
 			"id" "34834"
 			"plane" "(4988 1281 916) (4988 1281 1028) (5092 1281 1028)"
-			"material" "TOOLS/TOOLSBLACK"
-			"uaxis" "[1 0 0 -13.6313] 0.38"
-			"vaxis" "[0 0 -1 63.8571] 0.42"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[1 0 0 -16] 1"
+			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -97269,9 +97269,9 @@ entity
 		{
 			"id" "36221"
 			"plane" "(5220 767 1028) (5116 767 1028) (5116 767 916)"
-			"material" "TOOLS/TOOLSBLACK"
-			"uaxis" "[1 0 0 -30.4736] 0.38"
-			"vaxis" "[0 0 -1 63.8571] 0.42"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[1 0 0 -16] 1"
+			"vaxis" "[0 0 -1 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -105241,9 +105241,9 @@ entity
 		{
 			"id" "45643"
 			"plane" "(8252 1253 1328) (8198 1253 1328) (8198 1253 1216)"
-			"material" "TOOLS/TOOLSBLACK"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "LIGHTS/WHITE002"
+			"uaxis" "[1 0 0 -25] 1"
+			"vaxis" "[0 0 -1 32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -138707,8 +138707,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[8927.1 1478.42 2311.13]"
-		"look" "[8080.22 1638.2 652.062]"
+		"position" "[4716.33 -3770.93 1308.15]"
+		"look" "[5592.56 -2123.2 1196.63]"
 	}
 }
 cordon

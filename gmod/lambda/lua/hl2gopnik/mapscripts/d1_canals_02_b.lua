@@ -47,7 +47,7 @@ MAPSCRIPT.EntityFilterByClass =
 
 MAPSCRIPT.EntityFilterByName =
 {
-    ["player_items_template"] = true,
+	["player_items_template"] = true,
 }
 
 function MAPSCRIPT:Init()

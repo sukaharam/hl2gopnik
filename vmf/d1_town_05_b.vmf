@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8372"
+	"editorbuild" "8157"
 	"mapversion" "1875"
 	"formatversion" "100"
 	"prefab" "0"
@@ -34044,7 +34044,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-9216 4224 810.55]"
+				"startposition" "[-9216 4224 810.552]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34168,7 +34168,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-9216 4480 810.551]"
+				"startposition" "[-9216 4480 810.548]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34416,7 +34416,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-9216 4224 810.549]"
+				"startposition" "[-9216 4224 810.55]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -34697,7 +34697,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8960 4224 981.12]"
+				"startposition" "[-8960 4224 981.119]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35113,7 +35113,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8704 4480 639.666]"
+				"startposition" "[-8704 4480 639.671]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35361,7 +35361,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8704 4224 639.668]"
+				"startposition" "[-8704 4224 639.669]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35529,7 +35529,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8448 4224 554.229]"
+				"startposition" "[-8448 4224 554.231]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35653,7 +35653,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8448 4480 554.234]"
+				"startposition" "[-8448 4480 554.232]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -35901,7 +35901,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8448 4224 554.229]"
+				"startposition" "[-8448 4224 554.23]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36193,7 +36193,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8192 4480 468.791]"
+				"startposition" "[-8192 4480 468.792]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36317,7 +36317,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8192 4224 724.789]"
+				"startposition" "[-8192 4224 724.79]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36441,7 +36441,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8192 4224 468.787]"
+				"startposition" "[-8192 4224 468.791]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36733,7 +36733,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-7936 4480 383.355]"
+				"startposition" "[-7936 4480 383.351]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36857,7 +36857,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-7936 4224 639.351]"
+				"startposition" "[-7936 4224 639.35]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -36981,7 +36981,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-7936 4224 383.354]"
+				"startposition" "[-7936 4224 383.351]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -37442,7 +37442,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-8960 4480 725.119]"
+				"startposition" "[-8960 4480 725.117]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -121209,8 +121209,8 @@ entity
 	"fragility" "100"
 	"gibdir" "0 0 0"
 	"health" "1"
-	"lowerleft" "-2614.34 7631.68 940.311"
-	"lowerright" "-2526.13 7545.58 944.07"
+	"lowerleft" "-2614.34 7631.68 940.307"
+	"lowerright" "-2526.12 7545.57 944.066"
 	"material" "0"
 	"pressuredelay" "0"
 	"propdata" "0"
@@ -121220,8 +121220,8 @@ entity
 	"rendermode" "0"
 	"spawnobject" "0"
 	"surfacetype" "0"
-	"upperleft" "-2611.91 7619.95 967.721"
-	"upperright" "-2536.19 7545.4 972.84"
+	"upperleft" "-2611.91 7620 967.721"
+	"upperright" "-2536.19 7545.39 972.84"
 	connections
 	{
 		"OnBreak" "end_soldier_bullseye_1,Kill,,5,-1"
@@ -131969,8 +131969,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-11423.9 4198.41 1051.28]"
-		"look" "[-11405.6 4316.39 1010.19]"
+		"position" "[-11980.3 4662.53 1152.8]"
+		"look" "[-12016.7 4778.35 1118.14]"
 	}
 }
 cordon

@@ -49,6 +49,7 @@ MAPSCRIPT.EntityFilterByName =
 {
     ["player_spawn_items_maker"] = true,
 	["player_items_template"] = true,
+	["jeep_template"] = true,
 }
 
 MAPSCRIPT.VehicleGuns = true

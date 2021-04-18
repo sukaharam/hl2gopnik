@@ -49,6 +49,7 @@ MAPSCRIPT.EntityFilterByName =
 {
     ["player_spawn_items_maker"] = true,
 	["player_items_template"] = true,
+	["template_jeep_spawn"] = true,
 }
 
 MAPSCRIPT.ImportantPlayerNPCNames =

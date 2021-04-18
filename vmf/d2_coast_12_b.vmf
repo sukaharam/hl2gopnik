@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8372"
+	"editorbuild" "8157"
 	"mapversion" "207"
 	"formatversion" "100"
 	"prefab" "0"
@@ -26582,7 +26582,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[4224 3904 0]"
+				"startposition" "[4224 3904 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -31610,7 +31610,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[3072 0 640]"
+				"startposition" "[3072 -0 640]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -31769,7 +31769,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[2048 0 640]"
+				"startposition" "[2048 -0 640]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -44525,7 +44525,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[2262.45 352 739.902]"
+				"startposition" "[2262.45 352 739.896]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -53198,7 +53198,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[6144 0 128]"
+				"startposition" "[6144 -0 128]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -54167,7 +54167,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[11648 -12736 0]"
+				"startposition" "[11648 -12736 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -54977,7 +54977,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[11008 -12160 0]"
+				"startposition" "[11008 -12160 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -56105,7 +56105,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[7232 -10880 0]"
+				"startposition" "[7232 -10880 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -56375,7 +56375,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[7232 -10368 0]"
+				"startposition" "[7232 -10368 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -57503,7 +57503,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[12288 -12608 0]"
+				"startposition" "[12288 -12608 -0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -61418,7 +61418,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[9024 -6576.82 -475.712]"
+				"startposition" "[9024 -6576.82 -475.714]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -61553,7 +61553,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[6656 -6576.82 -475.714]"
+				"startposition" "[6656 -6576.82 -475.715]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -174761,6 +174761,194 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7500 4500]"
+	}
+}
+entity
+{
+	"id" "26485"
+	"classname" "ai_relationship"
+	"disposition" "1"
+	"radius" "0"
+	"rank" "5"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "npc_manhack"
+	"targetname" "relationship_turret_vs_manhack_hate"
+	"origin" "9627.41 8056 2083.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 0]"
+	}
+}
+entity
+{
+	"id" "26488"
+	"classname" "ai_relationship"
+	"disposition" "1"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "npc_combine_s"
+	"targetname" "relationship_turret_vs_combine_hate"
+	"origin" "9627.41 8056 2108.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -14768]"
+	}
+}
+entity
+{
+	"id" "26491"
+	"classname" "ai_relationship"
+	"disposition" "1"
+	"rank" "88"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "cafe_soldier_1"
+	"target" "npc_antlionguard"
+	"targetname" "buddy_turret"
+	"origin" "9627.41 8056 2132.87"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[10500 16000]"
+	}
+}
+entity
+{
+	"id" "26494"
+	"classname" "ai_relationship"
+	"disposition" "3"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "npc_alyx"
+	"targetname" "relationship_turret_vs_alyx_like"
+	"origin" "9647.41 8056 2131.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 5000]"
+	}
+}
+entity
+{
+	"id" "26497"
+	"classname" "ai_relationship"
+	"disposition" "3"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "npc_alyx"
+	"target" "turret_buddy"
+	"targetname" "relationship_alyx_vs_turret_like"
+	"origin" "9667.41 8056 2131.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 5500]"
+	}
+}
+entity
+{
+	"id" "26500"
+	"classname" "ai_relationship"
+	"disposition" "1"
+	"radius" "0"
+	"rank" "0"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "npc_combine_s"
+	"target" "turret_buddy"
+	"targetname" "relationship_combine_vs_turret_hate"
+	"origin" "9667.41 8056 2108.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -2768]"
+	}
+}
+entity
+{
+	"id" "26503"
+	"classname" "ai_relationship"
+	"disposition" "3"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "!player"
+	"targetname" "relationship_turret_vs_player_like"
+	"origin" "9647.41 8056 2108.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -15268]"
+	}
+}
+entity
+{
+	"id" "26506"
+	"classname" "ai_relationship"
+	"disposition" "3"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "players"
+	"targetname" "relationship_turret_vs_player_like"
+	"origin" "9651.41 8056 2091.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -15268]"
+	}
+}
+entity
+{
+	"id" "26509"
+	"classname" "ai_relationship"
+	"disposition" "3"
+	"radius" "0"
+	"rank" "99"
+	"spawnflags" "0"
+	"StartActive" "1"
+	"subject" "turret_buddy"
+	"target" "!players"
+	"targetname" "relationship_turret_vs_player_like"
+	"origin" "9667.41 8056 2091.95"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -15268]"
 	}
 }
 cameras
