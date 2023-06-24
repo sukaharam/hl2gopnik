@@ -1,4 +1,6 @@
-AddCSLuaFile()
+if SERVER then
+    AddCSLuaFile()
+end
 
 local DbgPrint = GetLogging("MapScript")
 local MAPSCRIPT = {}
@@ -56,8 +58,6 @@ end
 function MAPSCRIPT:PostInit()
 
     if SERVER then
-
-        -- -114.632774 -1179.170288 -847.968750
 
         local checkpoint1 = GAMEMODE:CreateCheckpoint(Vector(-114.632774, -1179.170288, -847.968750), Angle(0, 90, 0))
         local checkpointTrigger1 = ents.Create("trigger_once")

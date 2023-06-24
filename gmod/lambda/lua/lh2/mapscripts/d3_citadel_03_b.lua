@@ -1,4 +1,6 @@
-AddCSLuaFile()
+if SERVER then
+    AddCSLuaFile()
+end
 
 local DbgPrint = GetLogging("MapScript")
 local MAPSCRIPT = {}
@@ -24,6 +26,11 @@ MAPSCRIPT.DefaultLoadout =
     },
     Armor = 80,
     HEV = true,
+}
+
+MAPSCRIPT.GlobalStates =
+{
+    ["super_phys_gun"] = GLOBAL_ON,
 }
 
 MAPSCRIPT.InputFilters =

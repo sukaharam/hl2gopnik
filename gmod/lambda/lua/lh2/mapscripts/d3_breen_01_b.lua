@@ -1,4 +1,6 @@
-AddCSLuaFile()
+if SERVER then
+    AddCSLuaFile()
+end
 
 local DbgPrint = GetLogging("MapScript")
 local MAPSCRIPT = {}
@@ -57,27 +59,6 @@ function MAPSCRIPT:PostInit()
             GAMEMODE:SetPlayerCheckpoint(checkpoint1, activator)
         end
 	
-    end
-
-end
-
-function MAPSCRIPT:PostPlayerSpawn(ply)
-
-    if self.AllowPhyscannon == true then
-        ply:Give("weapon_physcannon")
-    end
-
-    if self.SpawnInPod == true and IsValid(ply:GetVehicle()) == false then
-
-        DbgPrint("Player " .. tostring(ply) .. " has no vehicle, setting into empty pod...")
-        for _,v in pairs(self.Pods) do
-            if IsValid(v:GetDriver()) == false then
-                DbgPrint("Putting player into vehicle " .. tostring(v))
-                ply:EnterVehicle(v)
-                break
-            end
-        end
-
     end
 
 end

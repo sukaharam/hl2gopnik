@@ -1,0 +1,12 @@
+"lh2_maps"
+{
+	"base"		"base"
+	"title"		"Life-Half 2"
+	"maps"		"d3_breen_01_b|d3_citadel_05_b|d3_citadel_04_b|d3_citadel_03_b|d3_citadel_02_b|d3_citadel_01_b|d3_c17_13_b|d3_c17_12b_b|d3_c17_12_b|d3_c17_11_b|d3_c17_10b_b|d3_c17_10a_b|d3_c17_09_b|d3_c17_08_b|d3_c17_07_b|d3_c17_06b_b|d3_c17_06a_b|d3_c17_05_b|d3_c17_04_b|d3_c17_03_b|d3_c17_02_b|d3_c17_01_b|d2_prison_08_b|d2_prison_07_b|d2_prison_06_b|d2_prison_05_b|d2_prison_04_b|d2_prison_03_b|d2_prison_02_b|d2_prison_01_b|d2_coast_12_b|d2_coast_11_b|d2_coast_10_b|d2_coast_09_b|d2_coast_07_b|d2_coast_05_b|d2_coast_04_b|d2_coast_03_b|d2_coast_01_b|d1_town_05_b|d1_town_04_b|d1_town_02a_b|d1_town_02_b|d1_town_01a_b|d1_town_01_b|d1_eli_01_b|d1_canals_13_b|d1_canals_12_b|d1_canals_11_b|d1_canals_10_b|d1_canals_09_b|d1_canals_08_b|d1_canals_07_b|d1_canals_06_b|d1_canals_05_b|d1_canals_03_b|d1_canals_02_b|d1_canals_01a_b|d1_canals_01_b|d1_trainstation_06_b|d1_trainstation_05_b|d1_trainstation_04_b|d1_trainstation_03_b|d1_trainstation_02_b|d1_trainstation_01_b"
+	"menusystem"	"0"
+
+	"settings"
+	{
+		// This is strictly for added a new map category. It is NOT an actual gamemode. 
+	}
+}
