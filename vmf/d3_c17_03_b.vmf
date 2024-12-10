@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "2576"
+	"mapversion" "2577"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "2576"
+	"mapversion" "2577"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -107,7 +107,7 @@ world
 	"MaxRange" "20000"
 	"newunit" "0"
 	"ResponseContext" "terminal:1"
-	"skyname" "sky_day03_01"
+	"skyname" "sky_day03_02"
 	"sounds" "0"
 	"startdark" "0"
 	solid

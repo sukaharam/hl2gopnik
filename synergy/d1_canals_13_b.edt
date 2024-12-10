@@ -80,23 +80,6 @@ d1_canals_13_b
 
 		create
 		{
-			classname		"info_vehicle_spawn"
-			origin			"-272 -3448 -272"
-			values
-			{
-				model				"models/airboat.mdl"
-				RespawnVehicle		"1"
-				StartEnabled		"1"
-				StartGunEnabled		"1"
-				targetname			"coop_vehicle_spawn_02"
-				vehiclescript		"scripts/vehicles/airboat.txt"
-				VehicleSize			"170"
-				VehicleType			"2"
-			}
-		}
-
-		create
-		{
 			classname		"info_spawn_manager"
 			origin			"-6208 -10600 -1272"
 			values

@@ -50,9 +50,7 @@ MAPSCRIPT.EntityFilterByClass =
 MAPSCRIPT.EntityFilterByName =
 {
     ["player_items_template"] = true,
-	["template_airboat_spawn_2"] = true,
 	["template_airboat_spawn"] = true,
-	["airboat_lower"] = true,
 }
 
 MAPSCRIPT.VehicleGuns = true
